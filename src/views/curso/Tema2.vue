@@ -37,46 +37,46 @@
       .px-4.px-md-5.py-4
         .tarjeta.bg-color-white.p-4
           PasosB.color-acento-contenido
-            .row(titulo="").justify-content-end.align-items-center
-              .col-md-6.mb-4.mb-md-0
+            .row(titulo="").justify-content-center.align-items-center
+              .col-lg-6.mb-4.mb-3.mb-lg-0
                 h3 1844 a 1870
                 p.mb-0 Entre 1844 y 1870, las primeras instituciones, como las salas de asilo y el preescolar Yerbabuena, ofrecían más cuidado, que formación educativa. Incluso en 1870, con la creación del Hospicio de Bogotá, el énfasis seguía siendo proteger a la infancia más vulnerable (López Portela & Pro-Bueno, 2020).
-              .col-md-5
+              .col-md-8.col-lg-5
                 figure
                   img(src='@/assets/curso/tema2/4.png', alt='Texto que describa la imagen')
-            .row(titulo="").justify-content-end.align-items-center
-              .col-md-6.mb-4.mb-md-0
+            .row(titulo="").justify-content-center.align-items-center
+              .col-lg-6.mb-4.mb-3.mb-lg-0
                 h3 1914 a 1962
                 p.mb-0 Entre 1914 y 1962, el panorama cambió. Este período vio el nacimiento de iniciativas como la Casa de los Niños del Gimnasio Moderno, en 1914, y el Instituto Pedagógico Nacional, en 1917, donde la educación inicial comenzó a adquirir un enfoque más estructurado y formativo. Estas instituciones marcaron el inicio de una nueva manera de entender la educación en los primeros años (López Portela & Pro-Bueno, 2020).
-              .col-md-5
+              .col-md-8.col-lg-5
                 figure
                   img(src='@/assets/curso/tema2/5.png', alt='Texto que describa la imagen')
-            .row(titulo="").justify-content-end.align-items-center
-              .col-md-6.mb-4.mb-md-0
+            .row(titulo="").justify-content-center.align-items-center
+              .col-lg-6.mb-4.mb-3.mb-lg-0
                 h3 1968 a 1989
                 p.mb-0 En 1968 Colombia acaba de fundar el Instituto Colombiano de Bienestar Familiar (ICBF). ¿Qué impacto tuvo esto? Durante la etapa de 1968 a 1989, el preescolar se generalizó con iniciativas como los Centros de Atención Integral al Preescolar (CAIP) y el reconocimiento del término "educación inicial" en 1988. Este período sentó las bases para que el acceso a la educación temprana, se convirtiera en un objetivo nacional (López Portela & Pro-Bueno, 2020).
-              .col-md-5
+              .col-md-8.col-lg-5
                 figure
                   img(src='@/assets/curso/tema2/6.png', alt='Texto que describa la imagen')
-            .row(titulo="").justify-content-end.align-items-center
-              .col-md-6.mb-4.mb-md-0
+            .row(titulo="").justify-content-center.align-items-center
+              .col-lg-6.mb-4.mb-3.mb-lg-0
                 h3 1991 a 2006
                 p.mb-0 Con la Constitución Política, la educación se declaró un derecho fundamental. Pero esto no quedó solo en palabras. En 1994, la Ley General de Educación, reforzó este compromiso, mientras que, en el 2006, se adoptó una política pública para la primera infancia, consolidando un enfoque integral para su desarrollo. (López Portela & Pro-Bueno, 2020).
-              .col-md-5
+              .col-md-8.col-lg-5
                 figure
                   img(src='@/assets/curso/tema2/7.png', alt='Texto que describa la imagen')
-            .row(titulo="").justify-content-end.align-items-center
-              .col-md-6.mb-4.mb-md-0
+            .row(titulo="").justify-content-center.align-items-center
+              .col-lg-6.mb-4.mb-3.mb-lg-0
                 h3 2007 a 2013
                 p.mb-0 En los años 2007 a 2013, Colombia reafirmó su compromiso con la primera infancia, a través del Conpes 109 y la creación de la Comisión Intersectorial para la Atención Integral a la Primera Infancia. Este período demostró que la educación inicial ya no era solo un tema de cuidado, sino una prioridad en la agenda pública. 
-              .col-md-5
+              .col-md-8.col-lg-5
                 figure
                   img(src='@/assets/curso/tema2/8.png', alt='Texto que describa la imagen')
-            .row(titulo="").justify-content-end.align-items-center
-              .col-md-6.mb-4.mb-md-0
+            .row(titulo="").justify-content-center.align-items-center
+              .col-lg-6.mb-4.mb-3.mb-lg-0
                 h3 2016 a la actualidad
                 p.mb-0 Y hoy, en la etapa actual que comenzó en el 2016, la Ley 1804 y las Bases Curriculares del 2017, nos recuerdan que el camino continúa. El enfoque ahora no solo es inclusivo, sino también práctico, con un objetivo claro: garantizar una educación de calidad para todos los niños, desde sus primeros años (López Portela & Pro-Bueno, 2020).
-              .col-md-5
+              .col-md-8.col-lg-5
                 figure
                   img(src='@/assets/curso/tema2/9.png', alt='Texto que describa la imagen')
     
@@ -211,19 +211,19 @@
     p.mb-4 Habiendo descrito los programas fragmentados y su impacto, es momento de analizar cómo Colombia comenzó a construir un enfoque más cohesionado para la atención a la primera infancia.
 
     .row.mb-5.align-items-center
-      .col-lg-4
+      .col-lg-4.mb-3.mb-lg-0
         figure
           img(src="@/assets/curso/tema2/19.png", data-aos="zoom-in")
-      .col-lg-8.mb-3.mb-lg-0
+      .col-lg-8
         .bg-color-13.p-4.mb-3(data-aos="fade-left")
           p.mb-0 La progresión hacia un enfoque integral y multisectorial en la atención a la primera infancia es como armar un gran rompecabezas donde cada pieza, aunque única, debe encajar con las demás para formar una imagen completa y significativa. Durante años, Colombia enfrentó un reto: las piezas del rompecabezas estaban dispersas. Los sectores trabajaban por separado, como islas desconectadas, atendiendo necesidades específicas, pero dejando de lado la imagen completa del desarrollo infantil.
         p(data-aos="fade-left") Esto comenzó a cambiar con la llegada de una visión más amplia y articulada, que reconocía que los niños son seres complejos, con necesidades interdependientes. Por ejemplo, ¿de qué sirve que un niño tenga acceso a educación inicial si no cuenta con una buena nutrición o un entorno seguro en su hogar? Este razonamiento llevó a integrar esfuerzos en salud, educación, protección y nutrición, marcando el inicio de un enfoque verdaderamente integral.    
 
     .row.mb-5.align-items-center
-      .col-lg-5.order-2
+      .col-lg-5.order-1.order-lg-2.mb-3.mb-lg-0
         figure
           img(src="@/assets/curso/tema2/20.png", data-aos="zoom-in")
-      .col-lg-7.order-1.mb-3.mb-lg-0
+      .col-lg-7.order-2.order-lg-1.mb-3.mb-lg-0
         p(data-aos="fade-left") Un momento clave en esta evolución fue la creación de la estrategia "<b>De Cero a Siempre</b>", consolidada mediante la Ley 1804 del 2016. Esta política es un ejemplo inspirador de cómo diferentes sectores pueden trabajar juntos para garantizar el pleno desarrollo de los niños desde la gestación hasta los seis años. Imagina esto: mientras el Ministerio de Educación diseña programas de educación inicial inclusiva, el ICBF asegura que los niños reciban una alimentación adecuada, y los gobiernos locales adaptan estas políticas a las realidades culturales y sociales de sus comunidades. Es un modelo que, como una sinfonía, funciona mejor cuando todos los instrumentos trabajan en armonía.     
 
     

@@ -15,7 +15,7 @@
           p A lo largo de esta unidad, no solo aprenderá sobre las leyes y principios que respaldan la educación inicial en Colombia, sino que también encontrará algunos aspectos importantes de la historia detrás de estas políticas y cómo se han transformado para responder a los retos actuales. Este conocimiento no solo enriquecerá su perspectiva profesional, sino que también le permitirá imaginar soluciones innovadoras y prácticas para mejorar la calidad educativa en esta etapa tan importante.
           p.mb-0 Al finalizar esta unidad, será capaz de:
     
-    .bg-full-width.bg-fondo-3
+    .bg-full-width-2.bg-fondo-3
       .px-4.px-md-5.pb-md-3
     
         .row.justify-content-center.align-items-stretch.mb-5

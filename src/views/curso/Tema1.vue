@@ -24,7 +24,7 @@
               .anexo__texto
                 p <strong>Anexo. </strong> Fundamentos de la política educativa colombiana en educación inicial  .
     
-          .col-lg-5.order-1
+          .col-lg-5.order-1.mb-3.mb-lg-0
             figure(data-aos="zoom-in")
               img(src='@/assets/curso/tema1/2.png', alt='')
     

@@ -29,10 +29,10 @@
       h2 #[span 3.1] Lineamientos pedagógicos del MEN para la educación inicial
 
     .row.mb-5.align-items-center
-      .col-lg-5
+      .col-lg-5.mb-3.mb-lg-0
         figure
           img(src="@/assets/curso/tema3/2.png", data-aos="zoom-in")
-      .col-lg-7.mb-3.mb-lg-0
+      .col-lg-7
         .bg-color-15.p-4.mb-3(data-aos="fade-left")
           p.mb-0 Al iniciar el tema sobre los <b>Lineamientos Pedagógicos del Ministerio de Educación Nacional (MEN) para la educación inicial</b>, es importante comprender que estos lineamientos no solo guían la enseñanza, sino que también son una invitación a reflexionar sobre el rol transformador de la educación en los primeros años de vida. Estos lineamientos, en esencia, ofrecen una hoja de ruta que debe ser seguida para asegurar una educación de calidad, equitativa e inclusiva, que permita que los niños y niñas se desarrollen de manera integral en sus capacidades cognitivas, emocionales, sociales y físicas.
         p(data-aos="fade-left") <b>¿Qué se busca con estos lineamientos?</b> El MEN tiene un claro objetivo: ofrecer un <b>marco pedagógico</b> que permita a los docentes crear ambientes de aprendizaje donde los niños se sientan seguros, respetados y, sobre todo, motivados a aprender. Este enfoque busca que los niños no solo reciban conocimientos, sino que sean sujetos activos de su propio aprendizaje. Es fundamental que comprendan que son participantes activos en su proceso de desarrollo, donde el docente actúa como facilitador y guía, proporcionando un ambiente que favorezca la curiosidad, la exploración y la creatividad.
@@ -107,10 +107,10 @@
             p.mb-0 En términos de seguimiento y evaluación, el PAIPI establece mecanismos que permiten medir los avances en la atención integral, lo que favorece la toma de decisiones basada en evidencia y permite la mejora continua de los programas.
     
     .row.align-items-start.mb-5
-      .col-lg-5.mb-3.mb-lg-0.order-2(data-aos="fade-right")
+      .col-lg-5.mb-3.mb-lg-0.order-1.order-lg-2(data-aos="fade-right")
         figure
           img(src="@/assets/curso/tema3/5.png", alt="").mb-4.mb-lg-0
-      .col-lg-7.order-1(data-aos="fade-left")
+      .col-lg-7.order-2.order-lg-1(data-aos="fade-left")
         AcordionA(tipo="b")
           .div(titulo="Lineamientos Pedagógicos del MEN para la educación inicial")
             p.mb-0 EEl Plan Nacional de Educación Inicial (PNEI) de Colombia, es clave para garantizar la educación de calidad en los primeros años de vida, cubriendo desde el nacimiento hasta los seis años. Se enfoca en un desarrollo integral que incluye aspectos cognitivos, emocionales y sociales de los niños, y establece directrices pedagógicas esenciales para estructurar el sistema educativo en este nivel. El principal objetivo del PNEI es reducir las brechas educativas, especialmente en áreas rurales, y garantizar la inclusión de todos los niños, respetando la diversidad cultural y social.
