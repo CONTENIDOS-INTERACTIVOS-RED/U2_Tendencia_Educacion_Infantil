@@ -1,189 +1,169 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'3. Actividades rectoras'")
+  BannerInterno(:subTitulo="'3. Documentos política educativa colombiana en educación inicial'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
 
-    .bg-color-2.mb-5(data-aos="fade-up")
-      .row.justify-content-center.align-items-center
-        .col-lg-auto.mb-3.mb-lg-0
-          figure
-            img(src='@/assets/curso/tema3/1.png', alt='')
-        .col-lg
-          .p-4
-            p.mb-0(data-aos="fade-up") Es hora de iniciar el estudio de las modalidades y condiciones del sistema de educación inicial. Este tema le proporcionará una visión clara de las diferentes formas en las que se organiza la educación para la primera infancia en Colombia, incluyendo las modalidades familiar, institucional y comunitaria.
+    .row.mb-5.align-items-center
+      .col-lg-4.order-2
+        figure
+          img(src="@/assets/curso/tema3/1.png", data-aos="zoom-in")
+      .col-lg-8.order-1.mb-3.mb-lg-0
+        p(data-aos="fade-left") Ahora que hemos abordado diversos aspectos de la política educativa colombiana, es fundamental explorar los <b>documentos claves</b> que han orientado y siguen guiando la educación inicial en el país. Estos documentos no solo brindan una base normativa y legal, sino que también ofrecen una dirección clara para la implementación de programas y estrategias destinadas a mejorar la calidad educativa desde la primera infancia.    
 
-    #t_3_1.titulo-segundo(data-aos="flip-up")
-      h2 #[span 3.1] Principios y fundamentos pedagógicos de las actividades rectoras
-
-    .bg-full-width.bg-color-4.mb-5
+    
+        .bg-color-9.px-4.py-5(data-aos="fade-left")
+          p Para adentrarse en el tema de los <b>lineamientos y estándares técnicos</b> en la educación inicial en Colombia, resulta interesante visualizar cómo estos principios son la clave para estructurar una educación de calidad, inclusiva y equitativa desde los primeros años de vida. Imaginemos por un momento el impacto que tendría en los niños y niñas si cada establecimiento educativo siguiera una hoja de ruta clara, establecida no solo por normativas, sino también por principios que garanticen un aprendizaje adaptado a las necesidades reales de cada niño. Este es precisamente el propósito de los lineamientos y estándares técnicos.
+    
+    .bg-full-width.bg-color-3.mb-5
       .px-4.px-md-5.py-4
         .row.align-items-center
           .col-lg-auto
-            img(src="@/assets/curso/tema3/2.svg", style="max-width: 90px").mx-auto
+            img(src="@/assets/template/3.svg", style="max-width: 90px").mx-auto
           .col-lg
-            p.mb-0 Las <b>actividades rectoras</b>, dentro del sistema de educación inicial, son esenciales para el desarrollo integral de los niños en sus primeras etapas de vida. Estas actividades no solo buscan promover el aprendizaje académico, sino también fomentar el desarrollo social, emocional y físico de los niños.  
-      
-    p Para que estas actividades sean efectivas, deben basarse en principios pedagógicos sólidos y estar diseñadas, de acuerdo con las necesidades y características de cada niño (Rodríguez, 2019).
-    h5.mb-4 Conozcamos algunos de estos principios:
+            h5.mb-0 Reflexión:
+            p.mb-0 Imaginemos cómo sería nuestro entorno educativo ideal, donde cada niño recibe el apoyo necesario para aprender a su propio ritmo, dentro de un marco de inclusión y respeto a la diversidad.
+    
+    p.mb-4 Estos lineamientos y estándares técnicos no son solo normativas frías, sino herramientas poderosas para transformar la educación infantil en Colombia. Son el puente entre las políticas gubernamentales y la práctica diaria en las aulas. ¿Cómo puede cada uno de nosotros, desde su rol en la educación, contribuir a la implementación de estos lineamientos para garantizar que todos los niños tengan un futuro prometedor?
 
-    TabsC.color-acento-contenido.mb-5
-      .tabs-content.border.px-4.p-md-5.py-3.bg-color-8(titulo="Enfoque centrado en el niño" :icon="require('@/assets/bullets/1.svg')")
-        .row.justify-content-center
-          .col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
-            h4 Enfoque centrado en el niño
-            p Este enfoque propone que el niño debe ser el protagonista de su propio aprendizaje. Las actividades deben adaptarse a sus necesidades, intereses y ritmos de desarrollo. De esta manera, se crea un ambiente en el que el niño se siente motivado para explorar y aprender por sí mismo. En lugar de ser un receptor pasivo de información, el niño se convierte en un aprendiz activo, lo que facilita un aprendizaje más profundo y significativo (Jiménez y Quintana, 2020).
+    #t_3_1.titulo-segundo(data-aos="flip-up")
+      h2 #[span 3.1] Lineamientos pedagógicos del MEN para la educación inicial
+
+    .row.mb-5.align-items-center
+      .col-lg-5
+        figure
+          img(src="@/assets/curso/tema3/2.png", data-aos="zoom-in")
+      .col-lg-7.mb-3.mb-lg-0
+        .bg-color-15.p-4.mb-3(data-aos="fade-left")
+          p.mb-0 Al iniciar el tema sobre los <b>Lineamientos Pedagógicos del Ministerio de Educación Nacional (MEN) para la educación inicial</b>, es importante comprender que estos lineamientos no solo guían la enseñanza, sino que también son una invitación a reflexionar sobre el rol transformador de la educación en los primeros años de vida. Estos lineamientos, en esencia, ofrecen una hoja de ruta que debe ser seguida para asegurar una educación de calidad, equitativa e inclusiva, que permita que los niños y niñas se desarrollen de manera integral en sus capacidades cognitivas, emocionales, sociales y físicas.
+        p(data-aos="fade-left") <b>¿Qué se busca con estos lineamientos?</b> El MEN tiene un claro objetivo: ofrecer un <b>marco pedagógico</b> que permita a los docentes crear ambientes de aprendizaje donde los niños se sientan seguros, respetados y, sobre todo, motivados a aprender. Este enfoque busca que los niños no solo reciban conocimientos, sino que sean sujetos activos de su propio aprendizaje. Es fundamental que comprendan que son participantes activos en su proceso de desarrollo, donde el docente actúa como facilitador y guía, proporcionando un ambiente que favorezca la curiosidad, la exploración y la creatividad.
+
+ 
+    .row.justify-content-center.align-items-center.mb-5(data-aos="zoom-out")
+      .col-lg-10
+        ImagenInfografica.color-secundario
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/tema3/3.png', alt='', style="max-width: 1106px;").mx-auto
+
+          .bg-color-white.box-shadow.p-3(x="38%" y="41%" numero="+")
+            h5 El enfoque integral
+            p Uno de los pilares de los lineamientos pedagógicos del MEN es el enfoque integral. Este enfoque, al que se le otorga gran importancia, promueve que la educación inicial no se limite a aspectos intelectuales, sino que también considere el desarrollo emocional, físico y social de los niños. En este sentido, los lineamientos no solo se enfocan en la enseñanza de contenidos académicos, sino que tienen en cuenta cómo estos pueden ayudar a fortalecer la identidad de los niños, a potenciar sus habilidades emocionales y a desarrollar su capacidad para relacionarse con otros de manera respetuosa y cooperativa.
+  
+          .bg-color-white.box-shadow.p-3(x="76%" y="57%" numero="+")
+            h5 Estrategias pedagógicas activas
+            p Para lograr este enfoque integral, el MEN propone el uso de estrategias pedagógicas activas que involucren a los niños en su propio aprendizaje. En lugar de ser receptores pasivos de información, los niños se convierten en exploradores, creadores y participantes activos en actividades que desarrollan sus habilidades cognitivas y emocionales. Esto se logra mediante juegos, actividades de arte, música, actividades al aire libre, y el uso de herramientas tecnológicas, entre otras. Aquí, la pregunta es: ¿cómo lograr que estas estrategias se conviertan en parte de la rutina diaria del aula? La clave radica en adaptar cada estrategia a las necesidades de los niños, considerando su contexto cultural y sus intereses personales.
     
-          .col-md-8.col-lg-5.col-xl-4.order-1.mb-3.mb-lg-0
-            figure(data-aos="zoom-in")
-              img(src='@/assets/curso/tema3/3.png', alt='')
-    
-      .tabs-content.border.px-4.p-md-5.py-3.bg-color-8(titulo="Aprendizaje a través del juego" :icon="require('@/assets/bullets/1.svg')")
-        .row.justify-content-center
-          .col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
-            h4 Aprendizaje a través del juego
-            p En la infancia, el juego no es solo una actividad recreativa, sino un vehículo fundamental para el aprendizaje. Mediante el juego, los niños desarrollan habilidades cognitivas, motoras y sociales. Por ejemplo, cuando un niño juega con bloques, no solo está aprendiendo sobre formas y tamaños, sino que también está desarrollando su capacidad para resolver problemas, trabajar en equipo y coordinar sus movimientos. Las actividades rectoras deben incluir juegos que estimulen estos aspectos del desarrollo infantil (Gonzales et al., 2021).
-    
-          .col-md-8.col-lg-5.col-xl-4.order-1.mb-3.mb-lg-0
-            figure(data-aos="zoom-in")
-              img(src='@/assets/curso/tema3/4.png', alt='')
-    
-      .tabs-content.border.px-4.p-md-5.py-3.bg-color-8(titulo="Promover un desarrollo integral" :icon="require('@/assets/bullets/1.svg')")
-        .row.justify-content-center
-          .col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
-            h4 Promover un desarrollo integral
-            p Las actividades rectoras, también deben promover un desarrollo integral, es decir, deben tener en cuenta todos los aspectos del crecimiento del niño: intelectual, emocional, social y físico. Un niño que participa en actividades que favorecen tanto su desarrollo cognitivo como el emocional, por ejemplo, será más capaz de manejar sus emociones, interactuar de manera positiva con otros niños y desarrollar habilidades de comunicación. Es crucial que las actividades rectoras proporcionen un balance entre estos diferentes tipos de aprendizaje (Mérida & Ramírez, 2015).
-    
-          .col-md-8.col-lg-5.col-xl-4.order-1.mb-3.mb-lg-0
-            figure(data-aos="zoom-in")
-              img(src='@/assets/curso/tema3/5.png', alt='', style="width: 100%;")
-    
-      .tabs-content.border.px-4.p-md-5.py-3.bg-color-8(titulo="Inclusión y equidad" :icon="require('@/assets/bullets/1.svg')")
-        .row.justify-content-center
-          .col-lg-7.col-xl-8.mb-4.mb-md-0.order-2
-            h4 Inclusión y equidad
-            p El principio de inclusión y equidad también es esencial en el diseño de las actividades rectoras. Esto significa que las actividades deben estar pensadas para que todos los niños, independientemente de su contexto o capacidades, puedan participar y beneficiarse de ellas. Las actividades deben adaptarse a las necesidades de cada niño, asegurando que todos tengan las mismas oportunidades de aprender y desarrollarse. Esto puede incluir actividades que fomenten la cooperación y el respeto por las diferencias, promoviendo un ambiente inclusivo y respetuoso para todos.
-    
-          .col-md-8.col-lg-5.col-xl-4.order-1.mb-3.mb-lg-0
-            figure(data-aos="zoom-in")
-              img(src='@/assets/curso/tema3/6.png', alt='', style="width: 100%;")
-    
-    .bg-color-1.mb-5
+    p <b>¿Por qué es importante este enfoque?</b> Reflexionemos un momento sobre el impacto de aplicar estos lineamientos en el aula: la educación inicial tiene un poder transformador. En estos primeros años, se sientan las bases de todo el proceso educativo posterior. Aquí es donde los niños comienzan a formar su percepción del mundo, sus capacidades y su relación con los demás. Por lo tanto, proporcionarles experiencias de aprendizaje que estimulen su desarrollo integral es crucial.
+    p.mb-4 Por ejemplo, cuando un niño participa en una actividad de <b>colaboración grupal</b>, no solo aprende a compartir y a trabajar en equipo, sino que también desarrolla habilidades de <b>empatía y resolución de conflictos</b>. Al trabajar con materiales artísticos, los niños no solo desarrollan destrezas motoras, sino que también <b>expresan sus emociones</b> y <b>refuerzan su autoestima</b>. Este tipo de enfoques no solo benefician el desarrollo académico, sino que también contribuyen a la construcción de una sociedad más solidaria y respetuosa.
+
+    .bg-full-width.bg-color-11.mb-5
       .px-4.px-md-5.py-4
-        p.mb-0 Finalmente, las actividades rectoras deben fomentar la colaboración con las familias. La participación activa de los padres y cuidadores, es clave en el proceso de desarrollo de los niños. Las actividades rectoras deben incluir elementos que permitan una interacción constante entre la escuela y el hogar, de manera que los padres puedan involucrarse en el aprendizaje de sus hijos. Esto no solo fortalece el vínculo entre la escuela y la familia, sino que también asegura un seguimiento constante del desarrollo del niño, en diferentes contextos (Flores-Flores, 2021).
+        .row.align-items-center
+          .col-lg-auto
+            img(src="@/assets/template/1.svg", style="max-width: 90px").mx-auto
+          .col-lg
+            p.mb-0 La tarea de los educadores es enorme, pero también <b>enriquecedora</b>. Aplicar los <b>Lineamientos Pedagógicos del MEN</b> en el aula no es solo una obligación, sino una <b>oportunidad única</b> para dar forma al futuro de los niños. La educación inicial debe ser un espacio en el que los niños se sientan <b>valorados, escuchados y apoyados</b> en su desarrollo. Es a través de este enfoque integral que se puede transformar la educación, ofreciendo a todos los niños la misma <b>oportunidad</b> de crecer y desarrollarse en un entorno seguro, estimulante y equitativo.
     
+    p.mb-4 Por lo tanto, <b>¿cómo se puede asegurar que estos lineamientos se implementen de manera efectiva?</b> 
+
+    .bg-full-width.bg-color-3.mb-5
+      .px-4.px-md-5.py-4
+        .row.align-items-center
+          .col-lg-auto
+            img(src="@/assets/template/3.svg", style="max-width: 90px").mx-auto
+          .col-lg
+            h5.mb-0 ¿Sabias que…? 
+            p.mb-0 La clave está en crear conciencia entre los educadores sobre la importancia de su rol y en proporcionarles las herramientas necesarias para llevar a cabo este tipo de enfoques. Esto se logra mediante la formación continua y el apoyo institucional, que deben ir de la mano de un compromiso con la calidad educativa.
+    
+    p.mb-4 Para continuar con la exploración de la política educativa en la educación inicial, se abordará ahora un aspecto fundamental: los estándares de calidad en el desarrollo infantil, el cual conoceremos a través del siguiente video. 
+
+    .bg-full-width.bg-fondo-slider.mb-5
+      .p-4.p-md-5
+        figure
+          .video
+            iframe(width="560" height="315" src="https://www.youtube.com/embed/9cqLwqWDCzs?si=F1b2M6SlLRnGqFf9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
     #t_3_2.titulo-segundo(data-aos="flip-up")
-      h2 #[span 3.2] Fundamentos pedagógicos
-    
-    p.mb-4 Las actividades rectoras están basadas en principios pedagógicos como:
+      h2 #[span 3.2] Documentos claves
+
+    p.mb-4 Ahora que hemos comprendido la importancia de los documentos fundamentales en la educación inicial, es esencial seguir explorando los documentos claves que guían las políticas educativas en Colombia. Estos textos no solo sirven como bases normativas, sino que son la brújula para implementar una educación de calidad e inclusiva. Continuemos profundizando en ellos:
 
     .row.align-items-start.mb-5
       .col-lg-5.mb-3.mb-lg-0(data-aos="fade-right")
         figure
-          img(src="@/assets/curso/tema3/7.png", alt="").mb-4.mb-lg-0
+          img(src="@/assets/curso/tema3/4.png", alt="").mb-4.mb-lg-0
       .col-lg-7(data-aos="fade-left")
-    
         AcordionA(tipo="b")
-          .div(titulo="El constructivismo")
-            p.mb-0 Propone que el aprendizaje se construye de manera activa, a través de la interacción del niño con su entorno. Según este enfoque, los niños no son simplemente receptores de información, sino que son actores activos en su proceso de aprendizaje. Esto se traduce en actividades que permitan a los niños experimentar, explorar y aprender de manera práctica (Piaget, 1976).
-
+          .div(titulo="Plan Nacional de Educación Inicial (PNEI)")
+            p.mb-0 El PNEI de Colombia, es fundamental para garantizar una educación de calidad en la primera infancia, abarcando desde el nacimiento hasta los seis años. Este plan se enfoca en promover el desarrollo integral de los niños en aspectos cognitivos, emocionales y sociales, y establece directrices pedagógicas y organizacionales claves para estructurar el sistema educativo de la primera infancia. Su objetivo principal es reducir las brechas de acceso y calidad educativa, especialmente entre zonas urbanas y rurales, y asegurar la inclusión educativa, respetando la diversidad cultural y social de los niños.
+            p.mb-0 El PNEI también se distingue por su enfoque integral, que no solo se limita a la educación formal, sino que articula acciones de otros sectores como salud, nutrición y protección infantil. Además, incorpora un sistema de evaluación para asegurar la eficiencia y efectividad de su implementación, garantizando que los recursos se utilicen adecuadamente y los programas tengan un impacto real en el desarrollo de los niños.
+ 
+          .div(titulo="Proyecto de Atención Integral a la Primera Infancia (PAIPI) Parte I")
+            p.mb-0 El PAIPI es un documento clave en el contexto de la política educativa y social de Colombia porque establece un marco integral para garantizar el desarrollo integral de los niños y niñas en sus primeros años de vida. Este proyecto se enfoca en proporcionar una atención completa que abarca no solo la educación, sino también los aspectos de salud, nutrición, bienestar y protección, reconociendo que el desarrollo temprano de un niño no puede limitarse a un solo aspecto, sino que debe ser abordado de manera holística.
+            p.mb-0 Uno de los aspectos más importantes del PAIPI es su enfoque en los primeros seis años de vida, periodo considerado crucial para el desarrollo cognitivo, emocional y social de los niños. Durante esta etapa, se sientan las bases para el aprendizaje futuro y el bienestar general, por lo que una atención adecuada puede tener efectos duraderos a lo largo de la vida. El PAIPI se fundamenta en un modelo educativo inclusivo y equitativo, buscando reducir las brechas sociales y de acceso que aún existen entre las diferentes regiones del país, especialmente entre las zonas urbanas y rurales.
+          .div(titulo="Proyecto de Atención Integral a la Primera Infancia (PAIPI) Parte II")
+            p.mb-0 El PAIPI, es clave porque articula acciones de diversos sectores del gobierno, como educación, salud, cultura y bienestar social, para generar una intervención multisectorial que brinde a los niños y niñas una atención de calidad. Además, fomenta la participación activa de las familias, comunidades y organizaciones sociales en el proceso de desarrollo infantil, reconociendo la importancia de un enfoque comunitario para fortalecer la red de apoyo a la infancia.
+            p.mb-0 Otro aspecto relevante del PAIPI es su capacidad de ajustarse a las necesidades locales y regionales, porque las estrategias de implementación pueden adaptarse, según los contextos específicos de cada comunidad. De esta manera, se asegura que las políticas y programas sean pertinentes y efectivos en función de la diversidad cultural, económica y social de Colombia.
+            p.mb-0 En términos de seguimiento y evaluación, el PAIPI establece mecanismos que permiten medir los avances en la atención integral, lo que favorece la toma de decisiones basada en evidencia y permite la mejora continua de los programas.
     
-          .div(titulo="Aprendizaje significativo")
-            p.mb-0 Desarrollado por David Ausubel, también es clave. Este principio señala que el aprendizaje es más efectivo cuando se conecta con conocimientos previos del niño. Por ejemplo, si un niño ya ha tenido experiencias previas con animales, una actividad que le enseñe sobre diferentes especies, será más relevante y comprensible. Esto facilita la integración de nuevos conocimientos con lo que ya se sabe, haciendo el aprendizaje más significativo (Ausubel, 1968).
-
-    
-          .div(titulo="El enfoque socioemocional ")
-            p.mb-0 Es fundamental en las actividades rectoras. Este enfoque promueve el desarrollo de habilidades sociales y emocionales, como la empatía, la resolución de conflictos y la cooperación. Las actividades rectoras deben ofrecer oportunidades para que los niños interactúen entre sí, gestionen sus emociones y desarrollen habilidades para convivir de manera armoniosa con otros (Goleman, 1995).
-
-    .bg-full-width.bg-color-1.mb-5
-      .px-4.px-md-5.py-4
-        .row.align-items-center
-          .col-lg-auto
-            img(src="@/assets/curso/tema3/8.svg", style="max-width: 90px").mx-auto
-          .col-lg
-            p.mb-0 Al comprender los principios y fundamentos pedagógicos de las actividades rectoras, es posible pensar en cómo diseñar actividades que realmente favorezcan el desarrollo integral de los niños. ¿Cómo se pueden crear experiencias que fomenten tanto el aprendizaje cognitivo como emocional? La clave está en diseñar actividades que no solo sean educativas, sino que también sean inclusivas, participativas y centradas en el niño.
-    .bg-full-width.bg-color-4.mb-5
-      .px-4.px-md-5.py-4
-        .row.align-items-center
-          .col-lg-auto
-            img(src="@/assets/curso/tema3/2.svg", style="max-width: 90px").mx-auto
-          .col-lg
-            p.mb-0 Las <b>actividades rectoras</b> juegan un papel crucial en la construcción de un entorno de aprendizaje positivo y enriquecedor para los niños, ayudándoles a desarrollarse en todas las áreas necesarias para su crecimiento.
-    
-    .row.mb-5
-      .col-lg-5.mb-3.mb-lg-0(data-aos="fade-up")
-        p.mb-0.py-4.px-5.bg-color-5 Tras haber comprendido los principios y fundamentos pedagógicos de las actividades rectoras, es momento de profundizar en cómo el juego, el arte, la literatura y la exploración del medio, se convierten en ejes fundamentales para el desarrollo infantil. 
-      .col-lg-3.mb-3.mb-lg-0(data-aos="fade-down")
-        Figure
-          img(src='@/assets/curso/tema3/9.png', alt='', style="width: 100%;")
-      .col-lg-4.mb-3.mb-lg-0(data-aos="fade-up")
-        p.mb-0.py-4.px-5.bg-color-2 En el contexto de la educación infantil, el juego, el arte, la literatura y la exploración del medio, son reconocidos como ejes fundamentales dentro de las actividades rectoras. 
-    
-    p.mb-4 Estas actividades no solo son herramientas pedagógicas, sino que son esenciales para el desarrollo integral de los niños, estimulando tanto su creatividad como su capacidad cognitiva, emocional y social. En este sentido, es importante comprender cómo estos elementos contribuyen al proceso de aprendizaje en los primeros años de vida:
-
-    .bg-full-width.bg-fondo-slider.mb-5
-      .p-4.p-md-5
-        SlyderA(tipo="b").bg-white(data-aos="zoom-in")
-          .row.align-items-center.p-4.p-md-5
-            .col-lg-5.order-2
-              figure
-                img(src="@/assets/curso/tema3/10.png")
-            .col-lg-7.order-1.mb-3.mb-lg-0
-              h5 Juego 
-              p El <b>juego</b> se considera una de las formas más naturales y efectivas de aprendizaje en la infancia, porque permite que los niños exploren el mundo que les rodea, desarrollando habilidades cognitivas y sociales, a través de la interacción con su entorno y con otros niños. A través del juego, los niños no solo aprenden a resolver problemas, sino que también adquieren competencias emocionales al experimentar y gestionar diferentes emociones en situaciones simuladas.
-    
-          .row.align-items-center.p-4.p-md-5
-            .col-lg-5.order-2
-              figure
-                img(src="@/assets/curso/tema3/11.png")
-            .col-lg-7.order-1.mb-3.mb-lg-0
-              h5 Arte
-              p El <b>arte</b> también juega un papel clave, dado que ofrece a los niños un medio para expresar sus emociones, pensamientos e ideas. El arte, en sus diversas formas, como la pintura, la música, la danza y el teatro, fomenta la creatividad, la imaginación y la capacidad de comunicación. A través de estas actividades, los niños desarrollan habilidades motoras finas, aprenden a trabajar en equipo y, lo más importante, encuentran una vía para comprender y procesar el mundo que les rodea. El arte también contribuye al desarrollo cognitivo, porque involucra la observación, la toma de decisiones y la resolución de problemas.
-          .row.align-items-center.p-4.p-md-5
-            .col-lg-5.order-2
-              figure
-                img(src="@/assets/curso/tema3/12.png")
-            .col-lg-7.order-1.mb-3.mb-lg-0
-              h5 Literatura
-              p La <b>literatura</b>, por su parte, tiene una gran influencia en el desarrollo del lenguaje y las habilidades cognitivas de los niños. A través de los libros, los niños no solo aprenden nuevas palabras y conceptos, sino que también adquieren una comprensión más profunda de su entorno y de las emociones humanas. La lectura compartida fomenta la empatía y permite que los niños desarrollen una comprensión más amplia de la diversidad, los valores y las relaciones interpersonales. 
-          .row.align-items-center.p-4.p-md-5
-            .col-lg-5.order-2
-              figure
-                img(src="@/assets/curso/tema3/13.png")
-            .col-lg-7.order-1.mb-3.mb-lg-0
-              h5 Exploración del medio
-              p La <b>exploración del medio</b> es fundamental, dado que permite que los niños descubran y comprendan el mundo natural y social en el que viven. Esta exploración no solo involucra la observación del entorno físico, sino también el aprendizaje de cómo los seres humanos interactúan con su entorno y con los demás. La observación, el análisis y la experimentación, son herramientas esenciales para que los niños desarrollen un pensamiento crítico y reflexivo, sobre el mundo que los rodea.
-
-    .row.mb-5
-      .col-lg-5.mb-3.mb-lg-0
+    .row.align-items-start.mb-5
+      .col-lg-5.mb-3.mb-lg-0.order-2(data-aos="fade-right")
         figure
-          img(src="@/assets/curso/tema3/14.png", data-aos="zoom-in")
-      .col-lg-7
-        .bg-color-1.p-4.mb-4(data-aos="fade-left")
-          p.mb-0 Para garantizar una educación integral en la primera infancia, es fundamental integrar actividades rectoras, como el juego, el arte, la literatura y la exploración del medio, en el currículo, de manera efectiva. Estas actividades no solo estimulan el desarrollo cognitivo y emocional de los niños, sino que también favorecen la adquisición de habilidades sociales y el descubrimiento del mundo que los rodea (Elkonin, 1971).
-        p(data-aos="fade-left") Ahora, se propone profundizar en las estrategias para integrar estas actividades rectoras en el currículo, lo cual permitirá entender cómo organizar y aplicar estos enfoques pedagógicos de manera coherente y eficiente. Es esencial conocer cómo estas actividades pueden ser utilizadas como herramientas de aprendizaje en todas las áreas, facilitando la participación activa y el aprendizaje significativo.
-        
-    #t_3_3.titulo-segundo(data-aos="flip-up")
-      h2 #[span 3.3] Estrategias para integrar actividades rectoras en el currículo
+          img(src="@/assets/curso/tema3/5.png", alt="").mb-4.mb-lg-0
+      .col-lg-7.order-1(data-aos="fade-left")
+        AcordionA(tipo="b")
+          .div(titulo="Lineamientos Pedagógicos del MEN para la educación inicial")
+            p.mb-0 EEl Plan Nacional de Educación Inicial (PNEI) de Colombia, es clave para garantizar la educación de calidad en los primeros años de vida, cubriendo desde el nacimiento hasta los seis años. Se enfoca en un desarrollo integral que incluye aspectos cognitivos, emocionales y sociales de los niños, y establece directrices pedagógicas esenciales para estructurar el sistema educativo en este nivel. El principal objetivo del PNEI es reducir las brechas educativas, especialmente en áreas rurales, y garantizar la inclusión de todos los niños, respetando la diversidad cultural y social.
+            p.mb-0 Este enfoque integral no solo abarca la educación formal, sino que también articula acciones en áreas como salud, nutrición y protección infantil. Además, se implementa un sistema de evaluación para asegurar que los recursos se utilicen de manera eficiente y los programas tengan un impacto positivo en el desarrollo infantil.
+
+          .div(titulo="Conpes 109 del 2007: Política Pública para Infancia y Adolescencia")
+            p.mb-0 El CONPES 109 del 2007, es fundamental en la construcción de políticas públicas en Colombia, estableciendo un enfoque integral para el bienestar de los niños, niñas y adolescentes. Este documento aborda no solo la educación, sino que incluye áreas claves como la salud, la protección, la participación y el bienestar social. Esta visión multisectorial garantiza que los derechos de la infancia sean atendidos en su totalidad, alineándose con la Convención sobre los Derechos del Niño de las Naciones Unidas.
+            p.mb-0 Un aspecto crucial del CONPES 109 del 2007, es su enfoque basado en los derechos humanos, reconociendo que la infancia y la adolescencia son etapas fundamentales para el desarrollo de las personas. Así, todas las políticas deben centrarse en asegurar su protección, acceso a servicios básicos y el desarrollo pleno de su potencial. Además, se vincula a los Objetivos de Desarrollo Sostenible (ODS), promoviendo la universalidad del acceso a la educación y la mejora de las condiciones de vida de los menores.
+            p.mb-0 El documento también fortalece el papel del Instituto Colombiano de Bienestar Familiar (ICBF), encargado de implementar las políticas para la protección y el bienestar de los niños y adolescentes, especialmente en zonas rurales y vulnerables. Este fortalecimiento es clave para asegurar que las políticas no solo se diseñen, sino que se ejecuten eficazmente.
+          .div(titulo="Decreto 1075 del 2015: Reglamento único del sector educativo Parte I")
+            p.mb-0 El Decreto 1075 de 2015, es un documento clave dentro del marco normativo colombiano porque establece el Reglamento Único del Sector Educativo, organizando, sistematizando y aclarando las disposiciones legales existentes en el ámbito educativo. Este decreto compila las normativas relacionadas con la organización, gestión y funcionamiento del sector educativo en Colombia, lo cual facilita su aplicación y asegura la coherencia en las decisiones y políticas adoptadas.
+            p.mb-0 Una de las razones por las que este decreto es fundamental es que <b>unifica y aclara</b> las disposiciones normativas dispersas en diferentes leyes y decretos, convirtiéndolo en un instrumento que establece de manera clara los roles, responsabilidades y funciones de las instituciones educativas, los docentes, los estudiantes y las entidades que gestionan el sistema educativo. Al consolidar en un solo documento toda la normativa educativa, se facilita la interpretación y aplicación de las leyes en el contexto educativo, contribuyendo a la transparencia y eficiencia en la gestión del sector.
+            p.mb-0 En particular, el Decreto 1075 del 2015, también establece una serie de lineamientos técnicos y administrativos que permiten mejorar la calidad educativa y fortalecer el sistema escolar en todos sus niveles. Entre los aspectos más destacados, el decreto define los procedimientos para la creación y el funcionamiento de las instituciones educativas, los criterios para la organización de los planes de estudio y los procesos de evaluación, así como los lineamientos sobre la formación y el desempeño de los docentes.
+
+    .row.align-items-start.mb-5
+      .col-lg-5.mb-3.mb-lg-0(data-aos="fade-right")
+        figure
+          img(src="@/assets/curso/tema3/6.png", alt="").mb-4.mb-lg-0
+      .col-lg-7(data-aos="fade-left")
+        AcordionA(tipo="b")
+          .div(titulo="Decreto 1075 del 2015: Reglamento único del sector educativo Parte II")
+            p.mb-0 Este decreto también resulta clave porque permite una <b>mejor articulación entre los diferentes actores</b> del sistema educativo, como el Ministerio de Educación Nacional (MEN), las secretarías de educación y las instituciones educativas. A través de esta articulación, se busca garantizar que las políticas educativas sean implementadas de manera uniforme y efectiva en todo el país, promoviendo la equidad en el acceso y la calidad educativa.
+            p.mb-0 En términos de <b>educación inicial</b>, el Decreto 1075 del 2015 tiene un rol importante al <b>reconocer y formalizar las modalidades educativas</b>, incluyendo la educación inicial, y al ofrecer directrices claras sobre cómo debe estructurarse y ejecutarse este tipo de educación. Así, establece las bases normativas para la organización del sistema educativo, incluyendo la atención a la primera infancia, que es un área crucial para el desarrollo del país.
+            p.mb-0 Por todo esto, el Decreto 1075 del 2015, es considerado un documento clave, debido a que organiza de forma sistemática y estructurada el reglamento que rige el sistema educativo colombiano, facilitando la aplicación de las leyes y promoviendo la mejora continua de la calidad educativa en Colombia.
+ 
+          .div(titulo="Ley 1804 del 2016: Desarrollo integral de la primera infancia Parte I")
+            p.mb-0 La Ley 1804 del 2016, también conocida como la Ley de Desarrollo Integral de la Primera Infancia, establece un marco jurídico clave para la atención integral de los niños y niñas en sus primeros años de vida en Colombia. Con un enfoque multisectorial, esta Ley asegura que los menores desde su nacimiento hasta los 6 años reciban una educación, salud, nutrición y protección adecuadas, promoviendo su desarrollo físico, cognitivo, social y emocional.
+            p.mb-0 El objetivo principal de la Ley es garantizar los derechos fundamentales de los niños en esta etapa crucial, reconociendo la primera infancia como una fase determinante para su desarrollo humano y social. Esto implica coordinar esfuerzos entre distintos sectores como la educación, salud, y cultura, con el fin de ofrecer una atención integral. La Ley también hace hincapié en la calidad educativa, entendiendo que los primeros años son esenciales para sentar las bases del aprendizaje a lo largo de la vida. En este sentido, establece directrices para implementar programas educativos que promuevan la inclusión, la equidad y el respeto por la diversidad.
+          .div(titulo="Ley 1804 del 2016: Desarrollo integral de la primera infancia Parte II")
+            p.mb-0 Además, la Ley 1804 del 2016, no solo aborda la educación, sino que también articula políticas para garantizar el acceso a la salud, la nutrición, la seguridad social y la protección infantil, promoviendo la colaboración entre el Estado y la sociedad civil. En este enfoque integral, la Ley subraya la importancia de fortalecer las capacidades institucionales y coordinar esfuerzos para optimizar el uso de los recursos destinados a la primera infancia.
+            p.mb-0 Un aspecto relevante es el reconocimiento de la familia como el principal escenario de desarrollo del niño, promoviendo la participación activa de los padres, cuidadores y la comunidad en el proceso educativo. Esto refuerza la idea de que el bienestar y el desarrollo de los niños dependen no solo de la intervención estatal, sino también del apoyo familiar y comunitario.
     
-    p.mb-4 A continuación, se invita a explorar las diferentes estrategias que pueden ser implementadas en el aula para maximizar el impacto de las actividades rectoras en el desarrollo integral de los niños.
+    #t_3_3.titulo-segundo(data-aos="flip-up")
+      h2 #[span 3.3] Guías y materiales complementarios
+    
+    p.mb-4 Las guías y materiales complementarios desempeñan un papel fundamental en la educación inicial, ya que proporcionan a los educadores herramientas prácticas para enriquecer las experiencias de aprendizaje y promover el desarrollo integral de los niños y niñas. Estos recursos no solo facilitan la creación de ambientes de aprendizaje inclusivos y significativos, sino que también ayudan a adaptar la enseñanza a las necesidades específicas de cada estudiante, garantizando que todos puedan acceder a una educación de calidad.
 
     .bg-full-width.bg-color-3.mb-5
       .px-4.p-md-5
         .row.justify-content-center.align-items-center
-          .col-lg-8.mb-3.mb-lg-0
-            h2.mb-4(data-aos="flip-up") Estrategias para integrar actividades rectoras en el currículo 
-            p.mb-4(data-aos="fade-right") La integración de actividades rectoras en el currículo educativo es fundamental para promover un desarrollo integral en la infancia. En el PDF <b>Estrategias para integrar actividades rectoras en el currículo</b>, se presentan enfoques prácticos para incorporar el juego, el arte, la literatura y la exploración del medio en el proceso de enseñanza. Estas estrategias no solo enriquecen el aprendizaje, sino que también fomentan el desarrollo emocional, social y cognitivo de los niños, creando experiencias educativas significativas y transformadoras.
-    
+          .col-lg-7.mb-3.mb-lg-0
+            h2.mb-4(data-aos="flip-up") Guías y materiales complementarios   
+            p(data-aos="fade-right") En el PDF <b>Guías y materiales complementarios</b>, se presentarán recursos clave ofrecidos por entidades como el ICBF y el MEN, destacando su relevancia en la creación de estrategias pedagógicas que fomenten el bienestar, la inclusión y el aprendizaje activo. Además, se explorarán casos prácticos que muestran cómo estas herramientas se han implementado en diversas instituciones educativas, adaptándose a distintos contextos y desafíos.
+
             a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
-                p <strong>Anexo. </strong> Estrategias para integrar actividades rectoras en el currículo .
+                p <strong>Anexo. </strong> Guías y materiales complementarios   .
     
-          .col-lg-4
+          .col-lg-5
             figure(data-aos="zoom-in")
-              img(src='@/assets/curso/tema3/15.png', alt='')
-
+              img(src='@/assets/curso/tema3/7.png', alt='')
 
 
 
@@ -204,28 +184,22 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.mineducacion.gov.co/portal/?form=MG0AV3 " target="_blank" rel="noopener noreferrer") Ministerio de Educación Nacional. (2020). Centros de Desarrollo Infantil: Mejorando el Futuro de los Niños.
+              a(href="https://www.mineducacion.gov.co/portal/Educacion-inicial/Referentes-Tecnicos/341880:Referentes-Tecnicos " target="_blank" rel="noopener noreferrer") Referentes Técnicos - Referentes Técnicos. (s/f). Portal MEN - Presentación. Recuperado el 21 de diciembre de 2024.
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.mineducacion.gov.co/portal/?form=MG0AV3 " target="_blank" rel="noopener noreferrer") Ministerio de Educación Nacional. (2021). Evaluación de políticas públicas en educación infantil. 
+              a(href="https://www.mineducacion.gov.co/portal/Educacion-inicial/Politica-Educativa/177828:Documentos-oficiales " target="_blank" rel="noopener noreferrer") Consulte los referentes oficiales que sirven de marco guía para la política pública y la política educativa de primera infancia. Los invitamos a consultar los documentos. 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.mineducacion.gov.co/portal/Educacion-inicial/Sistema-de-Educacion-Inicial/178032:Actividades-rectoras-de-la-primera-infancia-y-de-la-educacion-inicial " target="_blank" rel="noopener noreferrer") Actividades rectoras de la primera infancia y de la educación inicial - Actividades rectoras de la primera infancia y de la educación inicial. (s/f). Portal MEN - Presentación.    
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.miprimerainfancia.com/actividades-rectoras/ " target="_blank" rel="noopener noreferrer") Mi Primera Infancia. (s.f.). ¿Qué son las actividades rectoras en la primera infancia?. Mi Primera Infancia. 
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://mineducacion.gov.co/1780/w3-article-178032.html " target="_blank" rel="noopener noreferrer") Ministerio de Educación Nacional. (s.f.). Actividades rectoras de la primera infancia y de la educación inicial. Ministerio de Educación Nacional.   
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.teachy.app/es?form=MG0AV3 " target="_blank" rel="noopener noreferrer") Teachy
+              a(href="https://elicit.com/?redirected=true " target="_blank" rel="noopener noreferrer") Elicit  
            
 
 
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.youtube.com/watch?v=C7M6bJl_ryk" target="_blank" rel="noopener noreferrer") Ministerio de Educación Nacional (30 jun 2014). Referentes Técnicos para la Educación Inicial: Paso a paso.  
+              a(href="https://www.youtube.com/watch?v=yF4pG5rckbI " target="_blank" rel="noopener noreferrer") Universidad Pedagógica Nacional. (2 dic 2015). Lineamientos de educación inicial.  
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.youtube.com/watch?v=IVfa-0whIdg  " target="_blank" rel="noopener noreferrer") Ministerio de Educación Nacional. (15 dic 2017). Bases Curriculares.  
 
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure

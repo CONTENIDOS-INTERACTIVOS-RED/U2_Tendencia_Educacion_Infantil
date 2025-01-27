@@ -3,16 +3,41 @@
   BannerInterno(subTitulo="Introducción")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
 
-    .row.mb-5
+  
+    .row.mb-5.align-items-center
       .col-lg-4.order-2
         figure
           img(src="@/assets/curso/intro/1.png", data-aos="zoom-in")
       .col-lg-8.order-1.mb-3.mb-lg-0
-        p(data-aos="fade-left") La educación infantil en Colombia, desempeña un papel crucial en el desarrollo integral de los niños y niñas durante su primera infancia, considerada una etapa determinante para la adquisición de habilidades cognitivas, emocionales y sociales. En este marco, la <b>Unidad 1, Sistema de educación inicial del Ministerio de Educación Nacional</b>, se centra en describir y analizar los lineamientos y estrategias implementados por el MEN y el ICBF, los cuales buscan garantizar una atención integral de calidad para la primera infancia.
+        p(data-aos="fade-left") <b>¿Sabía que las decisiones políticas influyen directamente en la manera en que los niños y niñas viven sus primeras experiencias educativas?</b> Esta unidad lo invita a analizar la naturaleza de la política educativa en la educación inicial, un tema clave para garantizar que la primera infancia tenga acceso a ambientes de aprendizaje seguros, inclusivos y estimulantes.
     
-        .bg-color-1.p-5(data-aos="fade-left")
-          p.mb-0 Al abordar esta unidad, se espera que el estudiante comprenda el proceso del sistema de educación inicial, identificando las modalidades de atención, los mecanismos de seguimiento, y las actividades rectoras que fundamentan las prácticas pedagógicas en este nivel educativo. Este conocimiento resulta esencial para diseñar, implementar y evaluar programas enfocados en el desarrollo y bienestar de la primera infancia, un área de gran impacto social y educativo.
+        .bg-color-9.px-4.py-5(data-aos="fade-left")
+          p A lo largo de esta unidad, no solo aprenderá sobre las leyes y principios que respaldan la educación inicial en Colombia, sino que también encontrará algunos aspectos importantes de la historia detrás de estas políticas y cómo se han transformado para responder a los retos actuales. Este conocimiento no solo enriquecerá su perspectiva profesional, sino que también le permitirá imaginar soluciones innovadoras y prácticas para mejorar la calidad educativa en esta etapa tan importante.
+          p.mb-0 Al finalizar esta unidad, será capaz de:
     
+    .bg-full-width.bg-fondo-3
+      .px-4.px-md-5.pb-md-3
+    
+        .row.justify-content-center.align-items-stretch.mb-5
+          .col-lg-4.mb-4(data-aos="zoom-in-up")
+            .custom-image-card-2.h-100
+              img.custom-image-card__image(src="@/assets/curso/intro/2.png" alt="")
+              .custom-image-card__text.text-center.p-4
+                p.mb-0 Comprender los fundamentos conceptuales y legales que sustentan la política educativa en educación inicial.
+          .col-lg-4.mb-4(data-aos="zoom-in-down")
+            .custom-image-card-2.h-100
+              img.custom-image-card__image(src="@/assets/curso/intro/3.png" alt="")
+              .custom-image-card__text.text-center.p-4
+                p.mb-0 Reconocer cómo los antecedentes históricos han moldeado las políticas actuales.
+          .col-lg-4.mb-4(data-aos="zoom-in-down")
+            .custom-image-card-2.h-100
+              img.custom-image-card__image(src="@/assets/curso/intro/4.png" alt="")
+              .custom-image-card__text.text-center.p-4
+                p.mb-0 Analizar documentos claves como la Ley 1804 del 2016, o el Conpes 109 del 2007 y reflexionar sobre su impacto en el desarrollo integral de los niños y niñas.
+
+    .bg-color-10.p-4(data-aos="fade-left")
+      p.mb-0 Lo invitamos a abordar el contenido de esta unidad con curiosidad y entusiasmo. Participe, reflexione y comparta sus ideas. Juntos construiremos una visión más crítica y creativa sobre la educación inicial, fortaleciendo nuestro compromiso con una primera infancia feliz, protegida y educada. ¡Vamos a empezar!
+  // 
     p El contenido de esta unidad, cobra relevancia no solo por su aporte al ámbito académico y profesional, sino también por su influencia directa en la construcción de un sistema educativo, equitativo e inclusivo. Profundizar en estos temas, permitirá reflexionar sobre el impacto de las políticas públicas y las prácticas pedagógicas en el fortalecimiento del tejido social y en el futuro del país.
     h5.mb-4 Esta unidad está organizada en tres temas:
 

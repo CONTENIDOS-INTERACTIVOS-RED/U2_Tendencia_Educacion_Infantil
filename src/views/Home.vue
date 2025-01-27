@@ -22,9 +22,9 @@
             .content-wrapper.px-lg-4.pt-lg-4.px-xxl-5.py-xxl-5.text-start
               p.home-main-title UNIDAD {{ `${globalData.numeroUnidad}` }}
               h1.home-title.mb-4 {{ globalData.tituloUnidad }}
-              p.descripcion.mb-4 Desde los primeros años de vida, la educación infantil se ha posicionado como un pilar esencial para el desarrollo integral de los niños y niñas en Colombia. En esta unidad, exploraremos cómo las políticas y estrategias del Sistema de Educación Inicial, liderado por el Ministerio de Educación Nacional y el ICBF, buscan garantizar una atención integral de calidad. A través del análisis de modalidades de atención, principios pedagógicos y sistemas de seguimiento, se reflexionará sobre la importancia de consolidar entornos inclusivos que promuevan el aprendizaje y bienestar infantil. 
+              p.descripcion.mb-4 Desde los inicios de la educación, garantizar entornos seguros y estimulantes para los niños ha sido una prioridad fundamental en la construcción de sociedades más justas y equitativas. La educación infantil, en este contexto, juega un papel determinante para establecer las bases del desarrollo integral de los niños en sus primeras etapas de vida. 
               
-              p #[b ¡Prepárese para entender las bases de un sistema educativo transformador que impacta el futuro de nuestra sociedad!]
+              p #[b ¡Prepárese para explorar cómo la educación inicial puede ser una herramienta transformadora en el desarrollo de una sociedad más inclusiva y equitativa!]
 
               .button-container.mt-auto
                 router-link.btn-iniciar.w-100.w-md-auto(:to="{ name: 'introduccion' }")

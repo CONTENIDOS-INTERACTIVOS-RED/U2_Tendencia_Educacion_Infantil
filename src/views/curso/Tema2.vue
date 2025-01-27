@@ -1,271 +1,282 @@
 <template lang="pug">
 .curso-main-container.pb-3
-  BannerInterno(:subTitulo="'2. Sistema de seguimiento     '")
+  BannerInterno(:subTitulo="'2. Antecedentes de la política educativa colombiana en educación inicial'")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.overflow-hidden
 
-    .row.mb-5
-      .col-lg-4.order-2
-        figure
-          img(src="@/assets/curso/tema2/1.png", data-aos="zoom-in")
-      .col-lg-8.order-1.mb-3.mb-lg-0
-        .bg-color-1.p-5.mb-3(data-aos="fade-left")
-          p.mb-0 Ahora que se ha explorado la articulación entre el Ministerio de Educación Nacional y el Sistema Nacional de Bienestar Familiar, es el momento de adentrarse en un aspecto clave del Sistema de Educación Inicial: el Sistema de Seguimiento. Este sistema es esencial para garantizar que los niños reciban una educación de calidad y que se cumplan los estándares establecidos. A lo largo de este subtema, se estudiarán los mecanismos de seguimiento que permiten evaluar y asegurar la efectividad de los programas educativos y de bienestar, para la primera infancia.
-        p(data-aos="fade-left") A través de este estudio, se comprenderá cómo el MEN y otras instituciones realizan el monitoreo constante de las estrategias implementadas, con el objetivo de mejorar continuamente los procesos y resultados educativos. Este es un componente fundamental para la mejora del sistema educativo en su conjunto, puesto que proporciona datos valiosos que guían las decisiones y políticas futuras.
-        h5 El seguimiento en la educación inicial:
-    
-    .bg-full-width.bg-fondo-slider.mb-5
-      .p-4.p-md-5
-        SlyderA(tipo="b").bg-white(data-aos="zoom-out")
-          .row.align-items-center.p-4.p-md-5
-            .col-lg-5.order-2
-              figure
-                img(src="@/assets/curso/tema2/2.png")
-            .col-lg-7.order-1.mb-3.mb-lg-0
-              h5 Es un proceso fundamental 
-              p Que garantiza que los niños reciban una atención adecuada, que favorezca su desarrollo integral y permita identificar oportunamente, sus necesidades y potencialidades. Este proceso no solo implica monitorear el avance de los niños en el contexto educativo, sino también observar el impacto de las políticas y programas implementados, asegurando que sean efectivos y adecuados para la diversidad de contextos en los que se encuentran.
-    
-          .row.align-items-center.p-4.p-md-5
-            .col-lg-5.order-2
-              figure
-                img(src="@/assets/curso/tema2/3.png")
-            .col-lg-7.order-1.mb-3.mb-lg-0
-              h5 Se entiende como
-              p Un conjunto de acciones sistemáticas y continuas que permiten evaluar y monitorear el progreso de los niños, las condiciones de los entornos educativos, y la calidad de las intervenciones pedagógicas. En este contexto, el seguimiento no es solo una herramienta de control, sino una estrategia para mejorar las prácticas educativas y asegurar que los derechos de la primera infancia, sean respetados y promovidos de manera efectiva (Díaz, Gonzales y Temoche-Cavero, 2023).
-          .row.align-items-center.p-4.p-md-5
-            .col-lg-5.order-2
-              figure
-                img(src="@/assets/curso/tema2/4.png")
-            .col-lg-7.order-1.mb-3.mb-lg-0
-              h5 Debe realizarse de forma constante
-              p Teniendo en cuenta los ritmos y características del desarrollo de los niños, así como las particularidades de las comunidades en las que se desarrollan. En palabras sencillas, el seguimiento en educación inicial no busca solo medir el avance en los aprendizajes, sino también las condiciones de bienestar que cada niño experimenta en su entorno educativo.
+    p.mb-4 A continuación, se abordará el tema de los antecedentes, un aspecto fundamental para comprender el contexto y la evolución de las estrategias educativas dirigidas a la primera infancia en el país. 
 
-    p.mb-4 El seguimiento tiene varios objetivos fundamentales que permiten asegurar la calidad educativa en los primeros años de vida. Algunos de los más relevantes son: 
-          
-    .bg-full-width.bg-fondo-slider.mb-5
-      .p-4.p-md-5
-        SlyderA(tipo="b").bg-white(data-aos="zoom-in")
-          .row.align-items-center.p-4.p-md-5
-            .col-lg-5.order-2
-              figure
-                img(src="@/assets/curso/tema2/5.png")
-            .col-lg-7.order-1.mb-3.mb-lg-0
-              h5 Garantizar el desarrollo integral de los niños
-              p Este objetivo busca asegurar que los niños reciban una atención que favorezca su desarrollo cognitivo, emocional, físico y social, promoviendo un enfoque integral que abarque todas las dimensiones de su crecimiento.
+    .row.justify-content-center(data-aos="zoom-in")
+      .col-lg-10
+        .tarjeta-avatar-b.mb-5.align-items-center
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/tema2/1.png' alt='AvatarTop')
+          .tarjeta.bg-color-12
+            .p-5
+              p.mb-0 Analizar los antecedentes nos permitirá identificar los logros y desafíos previos, así como las bases sobre las que se han construido las políticas actuales. Este recorrido histórico es clave para entender cómo Colombia ha ido ajustando su enfoque en la educación inicial para garantizar una atención integral y de calidad desde los primeros años de vida.
     
-          .row.align-items-center.p-4.p-md-5
-            .col-lg-5.order-2
-              figure
-                img(src="@/assets/curso/tema2/6.png")
-            .col-lg-7.order-1.mb-3.mb-lg-0
-              h5 Monitorear la implementación de políticas y programas
-              p A través del seguimiento, se evalúa si las políticas públicas y los programas implementados por el Ministerio de Educación Nacional y otras entidades, están siendo aplicados correctamente y si están generando los resultados esperados.
-          .row.align-items-center.p-4.p-md-5
-            .col-lg-5.order-2
-              figure
-                img(src="@/assets/curso/tema2/7.png")
-            .col-lg-7.order-1.mb-3.mb-lg-0
-              h5 Detectar necesidades y brechas
-              p El seguimiento permite identificar las brechas y las necesidades que puedan existir en los entornos educativos, ya sea en términos de infraestructura, materiales, o formación del talento humano. Detectar estas brechas a tiempo, es esencial para tomar decisiones informadas y ajustar las políticas y las estrategias.
-          .row.align-items-center.p-4.p-md-5
-            .col-lg-5.order-2
-              figure
-                img(src="@/assets/curso/tema2/8.png")
-            .col-lg-7.order-1.mb-3.mb-lg-0
-              h5 Fomentar la mejora continua
-              p Uno de los objetivos primordiales del seguimiento es promover la mejora continua en los procesos educativos. Esto implica que los docentes, coordinadores y autoridades educativas, utilicen la información recabada durante el seguimiento para ajustar las metodologías, estrategias y recursos de enseñanza.
-          .row.align-items-center.p-4.p-md-5
-            .col-lg-5.order-2
-              figure
-                img(src="@/assets/curso/tema2/9.png")
-            .col-lg-7.order-1.mb-3.mb-lg-0
-              h5 Asegurar la inclusión y la equidad
-              p En un país como Colombia, con diversidad cultural, geográfica y socioeconómica, el seguimiento también debe centrarse en verificar que todos los niños, independientemente de su contexto, tengan acceso a una educación de calidad y a un desarrollo integral, sin exclusión.
-    
-    .bg-full-width.bg-color-1.mb-5
-      .px-4.px-md-5.py-4
-        .row.align-items-center
-          .col-lg-auto
-            img(src="@/assets/curso/tema2/10.svg", style="max-width: 90px").mx-auto
-          .col-lg
-            h5.mb-0 Reflexión:
-            p.mb-0 El seguimiento en la educación inicial, es una herramienta poderosa para asegurar que cada niño reciba la atención y el apoyo necesarios para su desarrollo. ¿Qué tanto se valora este proceso en los entornos educativos donde se trabaja? ¿Qué estrategias cree que podrían fortalecer el seguimiento y la mejora continua de los programas educativos en la primera infancia?
-    
-        
-
     #t_2_1.titulo-segundo(data-aos="flip-up")
-      h2 #[span 2.1] Indicadores de evaluación del desarrollo infantil
+      h2 #[span 2.1] Evolución histórica de la educación inicial en Colombia
 
-    p.mb-4 En este subtema, se abordará uno de los aspectos más importantes para garantizar que la educación infantil en Colombia sea efectiva: los <b>indicadores de evaluación del desarrollo infantil</b>. Estos indicadores son herramientas fundamentales que permiten realizar un seguimiento detallado del desarrollo de los niños, no solo en términos académicos, sino también en su crecimiento emocional, social y físico. Es esencial comprender cómo estos indicadores, ayudan a identificar el progreso y las posibles áreas de mejora de cada niño, asegurando que todos reciban la atención adecuada para su desarrollo integral.
-
-    .row.align-items-start.mb-5
-      .col-lg-5.mb-3.mb-lg-0(data-aos="fade-right")
+    .row.mb-5
+      .col-lg-3.mb-3.mb-lg-0
         figure
-          img(src="@/assets/curso/tema2/11.png", alt="").mb-4.mb-lg-0
-      .col-lg-7(data-aos="fade-left")
+          img(src="@/assets/curso/tema2/2.png", data-aos="zoom-in")
+      .col-lg-9
+        p(data-aos="fade-left") Para entender profundamente la evolución de la política educativa en Colombia, especialmente en lo que respecta a la educación inicial, es esencial recorrer los periodos claves y los hitos más relevantes que han marcado la trayectoria de este proceso. Estos momentos no son solo fechas o cambios legislativos; son puntos de inflexión que reflejan las necesidades sociales, culturales y económicas del país, a la vez que ponen de manifiesto el compromiso del Estado y la sociedad con la educación desde los primeros años de vida.
+        .bg-color-2.mb-5
+          .px-4.px-md-5.py-4
+            .row.align-items-center
+              .col-lg-auto
+                img(src="@/assets/template/2.svg", style="max-width: 90px").mx-auto
+              .col-lg
+                p.mb-0 La historia de la educación inicial en Colombia es un relato fascinante de transformación y progreso, marcado por hitos que reflejan cómo el país ha priorizado la atención a sus ciudadanos más pequeños. 
     
-        AcordionA(tipo="b")
-          .div(titulo="¿Qué ha establecido el MEN?")
-            p.mb-0 El <b>Ministerio de Educación Nacional (MEN)</b> ha establecido una serie de <b>indicadores</b> para evaluar las distintas dimensiones del desarrollo infantil. Estos incluyen, por ejemplo, la capacidad de los niños para interactuar con sus compañeros, resolver problemas, expresar emociones de manera adecuada y desarrollar habilidades motoras. La clave aquí es que los indicadores no solo miden los conocimientos académicos, sino que también tienen en cuenta aspectos cruciales del crecimiento personal y social de los niños.
-
-    
-          .div(titulo="¿Para qué ha diseñado los indicadores?")
-            p.mb-0 Es interesante observar que el MEN ha diseñado estos indicadores para ser <b>continuos y formativos</b>, lo que significa que la evaluación no se limita a momentos específicos, como exámenes o evaluaciones al final de un periodo. Por el contrario, el seguimiento se realiza a lo largo de todo el proceso educativo, permitiendo identificar tempranamente cualquier dificultad en el desarrollo de los niños. Este enfoque es clave para intervenir de manera oportuna y proporcionar el apoyo necesario antes que los problemas se conviertan en barreras significativas para su aprendizaje.
-
-    
-          .div(titulo="¿Cómo se lleva a cabo este seguimiento? ")
-            p.mb-0 A través de observaciones diarias y registros continuos, los docentes y los profesionales de la educación infantil recogen información sobre cómo los niños interactúan en clase, cómo gestionan sus emociones, cómo resuelven problemas y cómo avanzan en sus habilidades cognitivas. Estos datos se utilizan para ajustar las metodologías pedagógicas y garantizar que cada niño reciba el acompañamiento necesario.
-    
-    p.mb-4 Además, estos indicadores son esenciales para crear un entorno educativo inclusivo, donde se tome en cuenta no solo el rendimiento académico, sino también el bienestar emocional y social de cada niño. En este sentido, la educación infantil no se limita solo a la transmisión de conocimientos, sino que también fomenta habilidades sociales y emocionales, que son igualmente importantes para el desarrollo integral de los menores.
+    p.mb-4 Realicemos un recorridos por esos períodos claves e hitos más relevantes:
 
     .bg-full-width.bg-color-1.mb-5
       .px-4.px-md-5.py-4
-        .row.align-items-center
-          .col-lg-auto
-            img(src="@/assets/curso/tema2/10.svg", style="max-width: 90px").mx-auto
-          .col-lg
-            h5.mb-0 Reflexión:
-            p.mb-0 ¿Cómo podría un docente identificar las necesidades de cada niño si no tuviera estos indicadores claros? ¿Cómo podrían los profesionales de la educación infantil adaptar sus estrategias pedagógicas si no contaran con una visión completa del desarrollo de los niños? Estos indicadores no solo facilitan la tarea de seguimiento, sino que permiten una educación más personalizada y ajustada a las necesidades individuales de cada niño.
+        .tarjeta.bg-color-white.p-4
+          PasosB.color-acento-contenido
+            .row(titulo="").justify-content-end.align-items-center
+              .col-md-6.mb-4.mb-md-0
+                h3 1844 a 1870
+                p.mb-0 Entre 1844 y 1870, las primeras instituciones, como las salas de asilo y el preescolar Yerbabuena, ofrecían más cuidado, que formación educativa. Incluso en 1870, con la creación del Hospicio de Bogotá, el énfasis seguía siendo proteger a la infancia más vulnerable (López Portela & Pro-Bueno, 2020).
+              .col-md-5
+                figure
+                  img(src='@/assets/curso/tema2/4.png', alt='Texto que describa la imagen')
+            .row(titulo="").justify-content-end.align-items-center
+              .col-md-6.mb-4.mb-md-0
+                h3 1914 a 1962
+                p.mb-0 Entre 1914 y 1962, el panorama cambió. Este período vio el nacimiento de iniciativas como la Casa de los Niños del Gimnasio Moderno, en 1914, y el Instituto Pedagógico Nacional, en 1917, donde la educación inicial comenzó a adquirir un enfoque más estructurado y formativo. Estas instituciones marcaron el inicio de una nueva manera de entender la educación en los primeros años (López Portela & Pro-Bueno, 2020).
+              .col-md-5
+                figure
+                  img(src='@/assets/curso/tema2/5.png', alt='Texto que describa la imagen')
+            .row(titulo="").justify-content-end.align-items-center
+              .col-md-6.mb-4.mb-md-0
+                h3 1968 a 1989
+                p.mb-0 En 1968 Colombia acaba de fundar el Instituto Colombiano de Bienestar Familiar (ICBF). ¿Qué impacto tuvo esto? Durante la etapa de 1968 a 1989, el preescolar se generalizó con iniciativas como los Centros de Atención Integral al Preescolar (CAIP) y el reconocimiento del término "educación inicial" en 1988. Este período sentó las bases para que el acceso a la educación temprana, se convirtiera en un objetivo nacional (López Portela & Pro-Bueno, 2020).
+              .col-md-5
+                figure
+                  img(src='@/assets/curso/tema2/6.png', alt='Texto que describa la imagen')
+            .row(titulo="").justify-content-end.align-items-center
+              .col-md-6.mb-4.mb-md-0
+                h3 1991 a 2006
+                p.mb-0 Con la Constitución Política, la educación se declaró un derecho fundamental. Pero esto no quedó solo en palabras. En 1994, la Ley General de Educación, reforzó este compromiso, mientras que, en el 2006, se adoptó una política pública para la primera infancia, consolidando un enfoque integral para su desarrollo. (López Portela & Pro-Bueno, 2020).
+              .col-md-5
+                figure
+                  img(src='@/assets/curso/tema2/7.png', alt='Texto que describa la imagen')
+            .row(titulo="").justify-content-end.align-items-center
+              .col-md-6.mb-4.mb-md-0
+                h3 2007 a 2013
+                p.mb-0 En los años 2007 a 2013, Colombia reafirmó su compromiso con la primera infancia, a través del Conpes 109 y la creación de la Comisión Intersectorial para la Atención Integral a la Primera Infancia. Este período demostró que la educación inicial ya no era solo un tema de cuidado, sino una prioridad en la agenda pública. 
+              .col-md-5
+                figure
+                  img(src='@/assets/curso/tema2/8.png', alt='Texto que describa la imagen')
+            .row(titulo="").justify-content-end.align-items-center
+              .col-md-6.mb-4.mb-md-0
+                h3 2016 a la actualidad
+                p.mb-0 Y hoy, en la etapa actual que comenzó en el 2016, la Ley 1804 y las Bases Curriculares del 2017, nos recuerdan que el camino continúa. El enfoque ahora no solo es inclusivo, sino también práctico, con un objetivo claro: garantizar una educación de calidad para todos los niños, desde sus primeros años (López Portela & Pro-Bueno, 2020).
+              .col-md-5
+                figure
+                  img(src='@/assets/curso/tema2/9.png', alt='Texto que describa la imagen')
     
-    p.mb-4 A medida que se avanza en el estudio de los indicadores de evaluación del desarrollo infantil, se entenderá cómo este sistema de seguimiento contribuye de manera crucial, a mejorar la calidad educativa en Colombia, asegurando que cada niño reciba el apoyo necesario para desarrollarse plenamente, en todas las áreas de su vida.
-    
-    #t_2_2.titulo-segundo(data-aos="flip-up")
-      h2 #[span 2.2] Rol de los agentes educativos y entidades territoriales
-    
-    p.mb-4 El éxito del Sistema de Educación Inicial en Colombia depende de la colaboración entre agentes educativos y entidades territoriales, quienes desempeñan roles clave en la implementación de políticas públicas y programas educativos para la primera infancia.
-
-    .bg-color-5.shadow-soft.py-4.px-lg-5.mb-5
-      .row.justify-content-around.align-items-center
-        .col-md-auto
-          img(src="@/assets/template/bg-icono-pdf.svg", style="width: 90px;")
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              h3.mb-1 Rol de los agentes educativos y entidades territoriales 
-              p En el PDF <b>Rol de los agentes educativos y entidades territoriales</b>, se analizan las responsabilidades de estos actores, desde la atención integral de los niños hasta la adaptación de políticas nacionales a contextos locales, destacando la importancia de un enfoque colaborativo para garantizar una educación inclusiva y de calidad.
-            .col-sm-auto
-              a.boton.texto-blanco(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-                span Descargar
-                i.fas.fa-arrow-right
-    
-    #t_2_3.titulo-segundo(data-aos="flip-up")
-      h2 #[span 2.3] Herramientas y metodologías de seguimiento     
-
-    .row.mb-5
-      .col-lg-4.order-2
-        figure
-          img(src="@/assets/curso/tema2/12.png", data-aos="zoom-in")
-      .col-lg-8.order-1.mb-3.mb-lg-0
-        p(data-aos="fade-left") Una vez comprendidos los indicadores de evaluación del desarrollo infantil, es fundamental profundizar en las herramientas y metodologías de seguimiento que se utilizan para hacer un seguimiento continuo y detallado del desarrollo de los niños. Estas herramientas son claves para asegurar que el sistema educativo responda de manera efectiva, a las necesidades de cada niño y que se pueda intervenir oportunamente, en el caso que surjan dificultades.
-        .bg-color-1.p-5(data-aos="fade-left")
-          p.mb-0 En primer lugar, las herramientas de seguimiento son los instrumentos utilizados por los docentes y profesionales del ámbito educativo, para recopilar información sobre el progreso de los niños. Estas pueden incluir fichas de observación, rúbricas de evaluación, cuestionarios y entrevistas tanto con los niños como con sus familias. A través de estos instrumentos, los docentes recogen datos detallados sobre diversos aspectos del desarrollo infantil, como las habilidades cognitivas, emocionales, sociales y motoras. 
-
-    .bg-full-width.bg-color-4.mb-5
+    .bg-full-width.bg-color-11.mb-5
       .px-4.px-md-5.py-4
         .row.align-items-center
           .col-lg-auto
-            img(src="@/assets/curso/tema2/13.svg", style="max-width: 90px").mx-auto
+            img(src="@/assets/template/1.svg", style="max-width: 90px").mx-auto
           .col-lg
-            p.mb-0 Es importante señalar que estas herramientas deben ser utilizadas de forma sistemática y constante para garantizar que la información recolectada sea confiable y representativa del desarrollo de cada niño (Díaz, Gonzales y Temoche, 2023). 
-    
-    p.mb-4 Las <b>metodologías de seguimiento</b>, por otro lado, se refieren a los enfoques y estrategias pedagógicas que guían el proceso de seguimiento y evaluación del desarrollo infantil. Estas metodologías deben ser flexibles y adaptables, porque cada niño tiene un ritmo y una forma de aprender única. Algunas de las metodologías más utilizadas incluyen:
+            p.mb-0 Así, la historia de la educación inicial en Colombia, nos invita a reflexionar sobre cómo cada etapa ha construido un sistema más inclusivo e integral. Pero también nos deja una pregunta abierta: ¿qué nuevos hitos alcanzaremos en el futuro para seguir fortaleciendo la educación de nuestros niños?
+
+    .row.mb-5.align-items-center
+      .col-lg-5
+        figure
+          img(src="@/assets/curso/tema2/10.png", data-aos="zoom-in")
+      .col-lg-7.mb-3.mb-lg-0
+        .bg-color-13.p-4(data-aos="fade-left").mb-3
+          p.mb-0 Los <b>periodos claves y los hitos relevantes</b> en la política educativa colombiana, muestran un <b>proceso continuo de avance</b> hacia la construcción de un sistema que no solo garantice acceso, sino que también brinde una educación integral, inclusiva y equitativa. 
+        p(data-aos="fade-left") Sin embargo, es fundamental continuar reflexionando sobre cómo mejorar la implementación de estas políticas, para que sus beneficios realmente lleguen a todos los niños y niñas del país. 
+        p.mb-0 Una vez comprendido el panorama histórico y nacional de la política educativa en Colombia, resulta crucial dar un paso hacia el <b>análisis de las influencias internacionales</b> que han tenido un impacto significativo en la configuración de la <b>educación inicial</b> en el país. En este contexto, es esencial mencionar la <b>UNESCO</b> y los <b>Objetivos de Desarrollo Sostenible (ODS)</b>, dos actores globales cuyo enfoque ha orientado muchas de las políticas y reformas educativas a nivel mundial y, por ende, ha influido directamente en la educación inicial en Colombia. Por ejemplo:
 
     .bg-full-width.bg-fondo-slider.mb-5
       .p-4.p-md-5
         SlyderA(tipo="b").bg-white(data-aos="zoom-in")
+          .row.align-items-center.p-4.p-md-5
+            .col-lg-5.order-2
+              figure
+                img(src="@/assets/curso/tema2/11.png")
+            .col-lg-7.order-1.mb-3.mb-lg-0
+              p Supongamos un escenario en el que el desarrollo de cada niño y niña no solo depende de políticas locales, sino que también está respaldado por acuerdos y compromisos globales. Esa es la realidad de la educación inicial en Colombia, que ha sido profundamente influenciada por las orientaciones de la <b>UNESCO</b> y los <b>Objetivos de Desarrollo Sostenible (ODS)</b>. Estos marcos internacionales actúan como brújulas, orientando a los países hacia metas comunes, pero con la libertad de adaptar sus estrategias a las necesidades locales.
+    
+          .row.align-items-center.p-4.p-md-5
+            .col-lg-5.order-2
+              figure
+                img(src="@/assets/curso/tema2/12.png")
+            .col-lg-7.order-1.mb-3.mb-lg-0
+              p ¿Qué ha dicho la <b>UNESCO</b> sobre la educación inicial? La UNESCO ha liderado un llamado universal que pone a la primera infancia como una prioridad estratégica. A través de documentos como la <b>Recomendación sobre la educación preescolar</b> de 1960, este organismo promueve educación inclusiva que fomente el desarrollo integral desde las primeras etapas de vida. ¿Por qué tanto énfasis en la educación inicial? La respuesta radica en esta etapa que marca el inicio del aprendizaje, y sienta las bases para el desarrollo emocional, social y cognitivo de cada persona.
+          .row.align-items-center.p-4.p-md-5
+            .col-lg-5.order-2
+              figure
+                img(src="@/assets/curso/tema2/13.png")
+            .col-lg-7.order-1.mb-3.mb-lg-0
+              p En Colombia, este enfoque ha sido clave para iniciativas como la estrategia <b>De Cero a Siempre</b>, que no solo busca garantizar la educación en la primera infancia, sino también integrar servicios esenciales como salud y nutrición. Esto no es coincidencia; es el resultado de aplicar los principios internacionales de la UNESCO a un país con necesidades complejas, pero lleno de posibilidades.
           .row.align-items-center.p-4.p-md-5
             .col-lg-5.order-2
               figure
                 img(src="@/assets/curso/tema2/14.png")
             .col-lg-7.order-1.mb-3.mb-lg-0
-              h5 Evaluación continua
-              p Esta metodología se basa en la observación diaria y el registro constante de los avances de los niños. No se limita a momentos puntuales de evaluación, sino que el seguimiento es continuo, lo que permite identificar rápidamente, cualquier dificultad en el desarrollo. La evaluación continua ayuda en el ajuste de las estrategias pedagógicas, a las necesidades específicas de cada niño y a proporcionar un acompañamiento adecuado a lo largo del proceso de aprendizaje.
-    
-          .row.align-items-center.p-4.p-md-5
-            .col-lg-5.order-2
-              figure
-                img(src="@/assets/curso/tema2/15.png")
-            .col-lg-7.order-1.mb-3.mb-lg-0
-              h5 Evaluación formativa
-              p La evaluación formativa se enfoca en el proceso de aprendizaje, no solo en los resultados. Se utiliza para identificar las fortalezas y áreas de mejora de cada niño, durante su desarrollo, y se adapta constantemente para fomentar un aprendizaje significativo. Esta metodología permite realizar ajustes a tiempo, basados en los avances observados, para que todos los niños tengan las mismas oportunidades de aprendizaje.
-          .row.align-items-center.p-4.p-md-5
-            .col-lg-5.order-2
-              figure
-                img(src="@/assets/curso/tema2/16.png")
-            .col-lg-7.order-1.mb-3.mb-lg-0
-              h5 Enfoque basado en competencias
-              p Esta metodología se centra en el desarrollo de habilidades y competencias específicas que los niños deben adquirir. A través de la observación y evaluación de estas competencias, los docentes pueden medir cómo los niños están avanzando en el desarrollo de habilidades claves, como la comunicación, la resolución de problemas y la interacción social.
-    
-    p.mb-4 Es importante que tanto las herramientas como las metodologías de seguimiento, se encuentren alineadas con los estándares de calidad establecidos por el Ministerio de Educación Nacional (MEN) y el Instituto Colombiano de Bienestar Familiar (ICBF). De este modo, se asegura que el proceso de evaluación y seguimiento se realice de acuerdo con las mejores prácticas pedagógicas, garantizando una educación de calidad para la primera infancia en Colombia (Mérida & Ramírez, 2015).
-          
-    .bg-full-width.bg-color-1.mb-5
+              p Los Objetivos de Desarrollo Sostenible y la educación inicial: ¿cómo conectan? Pensemos en los <b>Objetivos de Desarrollo Sostenible (ODS)</b> como un mapa de 17 puntos para transformar el mundo. El <b>ODS 4</b>, dedicado a la educación, resalta la necesidad de asegurar que todos los niños tengan acceso a una <b>educación inclusiva, equitativa y de calidad</b>, desde las primeras etapas. En este contexto, la educación inicial no es solo un derecho, sino una oportunidad para reducir las brechas sociales, antes que se agranden.
+
+    .bg-full-width.bg-color-11.mb-5
       .px-4.px-md-5.py-4
         .row.align-items-center
           .col-lg-auto
-            img(src="@/assets/curso/tema2/10.svg", style="max-width: 90px").mx-auto
+            img(src="@/assets/template/1.svg", style="max-width: 90px").mx-auto
           .col-lg
-            h5.mb-0 Reflexión:
-            p.mb-0 Al estudiar estas herramientas y metodologías, se comprenderá que el seguimiento no se trata solo de recolectar datos, sino de utilizarlos de manera efectiva, para mejorar la calidad educativa y asegurar que los niños reciban el apoyo necesario. ¿Cómo podrían las metodologías de seguimiento impactar el desarrollo de un niño si se aplican correctamente? ¿De qué manera las herramientas de evaluación ayudan a personalizar el proceso de aprendizaje para cada niño?
-
-    #t_2_4.titulo-segundo(data-aos="flip-up")
-      h2 #[span 2.4] Rol de las entidades territoriales en el seguimiento y monitoreo
-
-    p.mb-4 El seguimiento y monitoreo de la educación inicial en Colombia recae en gran medida en las entidades territoriales, que desempeñan un papel crucial en la implementación y adaptación de las políticas educativas nacionales a las necesidades locales.
-
-    .bg-full-width.bg-color-7.mb-5
-      .px-4.p-md-5
-        .row.justify-content-center.align-items-center
-          .col-lg-8.mb-3.mb-lg-0
-            h2.mb-4(data-aos="flip-up") Rol de las entidades territoriales en el seguimiento y monitoreo 
-            p.mb-4(data-aos="fade-right") En el PDF <b>Rol de las entidades territoriales en el seguimiento y monitoreo</b>, se exploran las funciones clave de estas instancias, desde la supervisión de la calidad educativa y la capacitación docente, hasta la recopilación de datos y la promoción de la equidad en el acceso a la educación inicial. Este análisis permite comprender cómo la descentralización contribuye a fortalecer el desarrollo infantil en diversos contextos.
+            p.mb-0 En Colombia, esta visión se traduce en acciones concretas. Los <b>Centros de Desarrollo Infantil (CDI)</b>, por ejemplo, no solo brindan acceso a educación, sino que también consideran la nutrición, la salud y el cuidado emocional como elementos esenciales. Al cumplir con los ODS, estos centros fortalecen un enfoque que entiende la educación como una herramienta para romper ciclos de desigualdad.
     
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
-              .anexo__icono(:style="{'background-color': '#FCDFDB'}")
-                img(src="@/assets/template/icono-pdf.svg")
-              .anexo__texto
-                p <strong>Anexo. </strong> Rol de las entidades territoriales en el seguimiento y monitoreo .
-    
-          .col-lg-4
-            figure(data-aos="zoom-in")
-              img(src='@/assets/curso/tema2/17.png', alt='')
-    
-    p.mb-4 La evaluación debe realizarse de manera continua y no solo al final de los programas. Esto permite realizar ajustes oportunos y mejorar los procesos a lo largo del año, garantizando que los niños reciban una educación que responda a sus necesidades evolutivas.
+    h5 ¿Cómo se conectan lo global y lo local?
+    p.mb-4 Ahora surge una pregunta importante: ¿cómo asegurar que estas influencias internacionales se adapten a la realidad colombiana sin perder su esencia global? Aquí se presenta un desafío fascinante: lograr que las recomendaciones de la UNESCO y los ODS se conviertan en políticas efectivas en territorios rurales, urbanos y marginados.
 
-    .bg-color-3.mb-5
-      .px-4.px-md-5.py-4
-        p.mb-0 La mejora continua se basa en la idea que los programas educativos nunca deben ser considerados como procesos estáticos, sino como entes dinámicos que requieren revisión y optimización constante. La mejora continua implica la implementación de un ciclo de retroalimentación en el cual se analizan los resultados obtenidos, se identifican áreas de mejora y se aplican cambios que favorezcan una atención más efectiva y ajustada a los desafíos actuales.
+    .row.mb-5
+      .col-lg-4.mb-3.mb-lg-0(data-aos="fade-down")
+        div.p-3.h-100.bg-color-5
+          p.mb-0 ¿Cómo garantizar la inclusión de comunidades indígenas y afrodescendientes en un sistema educativo inspirado en principios globales? Este es un llamado a diseñar estrategias que no solo respeten las tradiciones culturales, sino que también promuevan el aprendizaje como un derecho universal.
+      .col-lg-4.mb-3.mb-lg-0
+        figure
+          img(src="@/assets/curso/tema2/15.png", data-aos="zoom-in")
+      .col-lg-4.mb-3.mb-lg-0(data-aos="fade-up")
+        div.p-3.h-100.bg-color-2
+          p.mb-0 La educación inicial en Colombia es un claro ejemplo de cómo las influencias internacionales pueden integrarse con las necesidades locales para generar cambios significativos. Desde las directrices de la UNESCO hasta los compromisos del ODS 4, estas guías ofrecen más que teorías: son un llamado a la acción para cada educador, gestor y ciudadano comprometido con el futuro de la niñez.
+
+    #t_2_2.titulo-segundo(data-aos="flip-up")
+      h2 #[span 2.2] Políticas previas a "De Cero a Siempre"
     
-    h5.mb-3 Este proceso se sustenta en los siguientes principios:
+    p.mb-4 Antes de la creación de la estrategia "De Cero a Siempre", existieron diversas políticas y programas que establecieron las bases para un enfoque integral en la atención de la primera infancia. Estas iniciativas, aunque inicialmente dispersas, marcaron los primeros pasos hacia el modelo actual. 
 
     .row.align-items-start.mb-5
       .col-lg-5.mb-3.mb-lg-0(data-aos="fade-right")
         figure
-          img(src="@/assets/curso/tema2/18.png", alt="").mb-4.mb-lg-0
+          img(src="@/assets/curso/tema2/16.png", alt="").mb-4.mb-lg-0
       .col-lg-7(data-aos="fade-left")
-    
         AcordionA(tipo="b")
-          .div(titulo="Revisión ")
-            h5.mb-0 Revisión constante de prácticas pedagógicas 
-            p.mb-0 Evaluar regularmente los métodos de enseñanza y aprendizaje utilizados, promoviendo la actualización y la innovación pedagógica, para mejorar la calidad educativa.
+          .div(titulo="¿Cuál es su objetivo?")
+            p.mb-0 El programa "De Cero a Siempre" tiene como objetivo promover el desarrollo integral de la primera infancia en Colombia, particularmente en contextos de vulnerabilidad, y es una estrategia clave dentro del Centro de Desarrollo Infantil del Instituto Colombiano de Bienestar Familiar (ICBF). 
+          .div(titulo="¿Cuál es su enfoque?")
+            p.mb-0 Su enfoque principal radica en garantizar los derechos de los niños y fortalecer las capacidades familiares para asegurar una educación de calidad (Bautista Cárdenas & Hernández Forero, 2018).
 
-          .div(titulo="Participación ")
-            h5.mb-0 Participación de la comunidad educativa 
-            p.mb-0 Fomentar la participación activa de todos los miembros de la comunidad educativa, incluidos los agentes educativos, las familias, las autoridades locales y las entidades territoriales. Esto contribuye a una evaluación más rica y diversa, la cual garantiza que las decisiones tomadas sean más representativas y eficaces.
-
-          .div(titulo="Capacitación ")
-            h5.mb-0 Capacitación continua del talento humano 
-            p.mb-0 La formación constante de los agentes educativos es fundamental para la mejora continua, dado que les permite incorporar nuevas herramientas, enfoques pedagógicos y metodologías, basadas en la evidencia.
-          .div(titulo="Monitoreo")
-            h5.mb-0 Monitoreo de la implementación de políticas 
-            p.mb-0 Asegurar que las políticas educativas diseñadas a nivel nacional, sean implementadas de manera coherente a nivel local, monitoreando su cumplimiento y adaptándolas a las necesidades específicas de cada contexto.
-
-    .bg-full-width.bg-color-1.mb-5
+    .bg-full-width.bg-color-3.mb-5
       .px-4.px-md-5.py-4
         .row.align-items-center
           .col-lg-auto
-            img(src="@/assets/curso/tema2/10.svg", style="max-width: 90px").mx-auto
+            img(src="@/assets/template/3.svg", style="max-width: 90px").mx-auto
           .col-lg
             h5.mb-0 Reflexión:
-            p.mb-0 La evaluación y la mejora continua, son procesos esenciales para garantizar la calidad y la efectividad de los programas de educación inicial. ¿Qué elementos considera más relevantes para realizar una evaluación exitosa en el contexto de la educación inicial? ¿Qué mecanismos de mejora cree que podrían fortalecer aún más, el sistema de educación infantil en Colombia?
+            p.mb-0 ¿qué aprendizajes dejaron estas políticas previas y cómo influyeron en el desarrollo de una estrategia más coordinada y estructurada? 
+    
+    .row.mb-5.align-items-center
+      .col-lg-4.order-2
+        figure
+          img(src="@/assets/curso/tema2/18.png", data-aos="zoom-in")
+      .col-lg-8.order-1.mb-3.mb-lg-0
+        p(data-aos="fade-left") ¡Acompáñenos a descubrir los cimientos que antecedieron a una de las propuestas más transformadoras en la historia de la educación inicial en Colombia!
+        p Piense en un rompecabezas con piezas valiosas pero dispersas: este era el panorama de las políticas públicas para la primera infancia en Colombia antes de la llegada de la estrategia "<b>De Cero a Siempre</b>". Los programas existentes, aunque bien intencionados, trabajaban de manera independiente, sin coordinarse entre sí. ¿El resultado? Niños que recibían atención médica pero carecían de estimulación temprana o educación inicial, y comunidades vulnerables enfrentando barreras insuperables para acceder a servicios integrales.     
+
+    
+        .bg-color-9.px-4.py-5(data-aos="fade-left")
+          p Por ejemplo, iniciativas como el Plan Nacional de Atención Integral a la Infancia (1996) y el marco normativo establecido por la Ley 1098 del 2006, conocida como el Código de Infancia y Adolescencia, aportaron avances significativos en ciertos aspectos, pero operaban en "compartimentos estancos". Cada sector -salud, educación y protección social- trabajaba bajo sus propios objetivos, dejando de lado la visión holística que exige el desarrollo integral en los primeros años de vida (ICBF, 2006).
+    
+    p.mb-4 Este enfoque fragmentado tenía consecuencias tangibles. En las zonas rurales, donde los recursos ya eran escasos, las duplicidades y vacíos se traducen en desigualdades aún mayores. ¿Qué sucede cuando un niño accede a servicios de nutrición, pero no cuenta con un entorno educativo que fomente su desarrollo cognitivo? La respuesta es clara: se limita su potencial y se perpetúan ciclos de exclusión social.
+
+    .bg-full-width.bg-color-3.mb-5
+      .px-4.px-md-5.py-4
+        .row.align-items-center
+          .col-lg-auto
+            img(src="@/assets/template/3.svg", style="max-width: 90px").mx-auto
+          .col-lg
+            h5.mb-0 Reflexión:
+            p.mb-0 ¿por qué es tan importante una atención integral para la primera infancia? Es en esta etapa donde se establecen las bases para el desarrollo físico, emocional y cognitivo. No se trata solo de atender necesidades individuales, sino de construir un futuro más justo y equitativo.
+
+    p.mb-4 Esta realidad subrayó la urgencia de superar la fragmentación. Reconocer que las políticas aisladas no podían responder a las complejidades de la primera infancia impulsó la creación de estrategias integradas. "De Cero a Siempre", por ejemplo, representó un cambio de paradigma, consolidando esfuerzos multisectoriales para asegurar una atención coordinada y efectiva que incluyera educación, salud, protección y nutrición en un solo marco.
+
+    .bg-full-width.bg-color-3.mb-5
+      .px-4.px-md-5.py-4
+        .row.align-items-center
+          .col-lg-auto
+            img(src="@/assets/template/3.svg", style="max-width: 90px").mx-auto
+          .col-lg
+            h5.mb-0 Reflexión:
+            p.mb-0 Cómo esta transición marcó un antes y un después en la política educativa de Colombia. ¿Qué aprendemos de los errores del pasado y cómo podemos aplicar estas lecciones en el diseño de políticas futuras? 
+
+    p.mb-4 Habiendo descrito los programas fragmentados y su impacto, es momento de analizar cómo Colombia comenzó a construir un enfoque más cohesionado para la atención a la primera infancia.
+
+    .row.mb-5.align-items-center
+      .col-lg-4
+        figure
+          img(src="@/assets/curso/tema2/19.png", data-aos="zoom-in")
+      .col-lg-8.mb-3.mb-lg-0
+        .bg-color-13.p-4.mb-3(data-aos="fade-left")
+          p.mb-0 La progresión hacia un enfoque integral y multisectorial en la atención a la primera infancia es como armar un gran rompecabezas donde cada pieza, aunque única, debe encajar con las demás para formar una imagen completa y significativa. Durante años, Colombia enfrentó un reto: las piezas del rompecabezas estaban dispersas. Los sectores trabajaban por separado, como islas desconectadas, atendiendo necesidades específicas, pero dejando de lado la imagen completa del desarrollo infantil.
+        p(data-aos="fade-left") Esto comenzó a cambiar con la llegada de una visión más amplia y articulada, que reconocía que los niños son seres complejos, con necesidades interdependientes. Por ejemplo, ¿de qué sirve que un niño tenga acceso a educación inicial si no cuenta con una buena nutrición o un entorno seguro en su hogar? Este razonamiento llevó a integrar esfuerzos en salud, educación, protección y nutrición, marcando el inicio de un enfoque verdaderamente integral.    
+
+    .row.mb-5.align-items-center
+      .col-lg-5.order-2
+        figure
+          img(src="@/assets/curso/tema2/20.png", data-aos="zoom-in")
+      .col-lg-7.order-1.mb-3.mb-lg-0
+        p(data-aos="fade-left") Un momento clave en esta evolución fue la creación de la estrategia "<b>De Cero a Siempre</b>", consolidada mediante la Ley 1804 del 2016. Esta política es un ejemplo inspirador de cómo diferentes sectores pueden trabajar juntos para garantizar el pleno desarrollo de los niños desde la gestación hasta los seis años. Imagina esto: mientras el Ministerio de Educación diseña programas de educación inicial inclusiva, el ICBF asegura que los niños reciban una alimentación adecuada, y los gobiernos locales adaptan estas políticas a las realidades culturales y sociales de sus comunidades. Es un modelo que, como una sinfonía, funciona mejor cuando todos los instrumentos trabajan en armonía.     
+
+    
+        .bg-color-11.p-4(data-aos="fade-left")
+          p En este contexto, la integralidad no es solo un término técnico; es una promesa de que ningún niño será atendido de manera parcial o incompleta. Es una invitación a pensar en grande, a ver más allá de las fronteras institucionales y a poner a los niños en el centro de todo. Por ejemplo, al reflexionar sobre esta estrategia, se puede plantear una pregunta clave: ¿qué tan efectivas son estas políticas en los territorios más alejados, donde la articulación entre sectores enfrenta mayores desafíos?
+    
+    .bg-color-2.mb-5(data-aos="fade-up")
+      .row.justify-content-center.align-items-center
+        .col-lg-auto
+          figure
+            img(src='@/assets/curso/tema2/21.png', alt='')
+        .col-lg.mb-3.mb-lg-0
+          .p-4
+            p.mb-0(data-aos="fade-up") Un aspecto fascinante de este enfoque es su capacidad de generar corresponsabilidad. No se trata solo de lo que hacen las instituciones, sino de cómo las familias y las comunidades participan activamente en el desarrollo infantil. Después de todo, como dice un proverbio africano: "Se necesita toda una aldea para criar a un niño".
+    
+    p.mb-4 Por último, es interesante considerar cómo esta progresión ha transformado las políticas en el papel, así como en la vida real de miles de niños. Reflexionar sobre estos avances lleva a valorar el impacto que tiene invertir en la primera infancia, no solo para el desarrollo individual, sino para el futuro de toda una sociedad.
+
+    .row.justify-content-center(data-aos="zoom-out")
+      .col-lg-10
+        .tarjeta-avatar-b.mb-5.align-items-center
+          .tarjeta-avatar-b__img
+            img(src='@/assets/curso/tema2/23.png' alt='AvatarTop')
+          .tarjeta.bg-color-14.text-white
+            .p-5
+              p.mb-0 Ahora que se ha explorado el camino recorrido hacia un enfoque integral y multisectorial en la atención a la primera infancia, es momento de reflexionar sobre los retos históricos que han surgido en este proceso y, más importante aún, sobre las oportunidades que se vislumbran en el horizonte.
+    
+    p.mb-4 Cada avance en políticas públicas conlleva desafíos únicos que invitan a repensar estrategias y fortalecer alianzas. Al sumergirse en este tema, se podrá identificar cómo las lecciones del pasado no solo ofrecen aprendizajes valiosos, sino que también abren ventanas hacia un futuro más prometedor para la infancia en Colombia. ¿Qué desafíos históricos se mantienen vigentes y qué nuevas oportunidades se pueden aprovechar? Es hora de descubrirlo.
+
+    #t_2_3.titulo-segundo(data-aos="flip-up")
+      h2 #[span 2.3] Retos históricos y oportunidades
+
+    p.mb-4 Los sistemas educativos no surgen en un vacío, sino que son el resultado de contextos históricos y sociales que moldean sus características y desafíos.
+
+    .bg-full-width.bg-color-7.mb-5
+      .px-4.p-md-5
+        .row.justify-content-center.align-items-center
+          .col-lg-7.mb-3.mb-lg-0
+            h2.mb-4(data-aos="flip-up") Retos históricos y oportunidades  
+            p(data-aos="fade-right") En el PDF Retos históricos y oportunidades, se analizarán las dificultades que ha enfrentado Colombia para garantizar una educación inicial inclusiva y de calidad, así como las oportunidades que han emergido para transformar estas dificultades en avances significativos en la atención a la primera infancia.
+
+            p(data-aos="fade-left") A lo largo del documento, se abordarán las brechas de cobertura y calidad que afectan el acceso a la educación en distintas regiones del país, y cómo estas desigualdades impactan en el desarrollo de los niños. Además, se explorará la importancia de la articulación intersectorial en la creación de políticas públicas que garanticen un enfoque integral en la atención a la primera infancia, superando los desafíos estructurales y promoviendo el bienestar de los niños y niñas en sus primeros años de vida.
+
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+              .anexo__icono(:style="{'background-color': '#FCDFDB'}")
+                img(src="@/assets/template/icono-pdf.svg")
+              .anexo__texto
+                p <strong>Anexo. </strong> Retos históricos y oportunidades  .
+    
+          .col-lg-5
+            figure(data-aos="zoom-in")
+              img(src='@/assets/curso/tema2/24.png', alt='')
+
+    
 
 
 
@@ -278,30 +289,21 @@
 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.mineducacion.gov.co/primerainfancia/1739/articles-178053_archivo_PDF_libro_desarrolloinfantil.pdf" target="_blank" rel="noopener noreferrer") Ministerio de Educación Nacional. (s.f.). Desarrollo infantil y competencias en la Primera infancia.  
+              a(href="https://1library.co/article/breve-recorrido-hist%C3%B3rico-educaci%C3%B3n-inicial-colombia.zwvp7o7q" target="_blank" rel="noopener noreferrer") (S/f-f). 1Library.co. Recuperado el 21 de diciembre de 2024. 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.icbf.gov.co/sites/default/files/procesos/manual_tecnico_escal_de_valoracion_cualitativa.pdf " target="_blank" rel="noopener noreferrer") Instituto Colombiano de Bienestar Familiar (ICBF). (n.d.). Manual técnico de la Escala de Valoración Cualitativa del Desarrollo Infantil. 
+              a(href="https://lahistoria.info/historia-de-la-educacion-infantil-en-colombia-2/ " target="_blank" rel="noopener noreferrer") Historia de la Educación Infantil en Colombia 
             p.d-flex.my-4
               img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://cli-main.org/public/wp-content/uploads/sites/10/2019/06/DevelopmentalMilestones-Spanish.pdf " target="_blank" rel="noopener noreferrer") Centro de Información sobre el Desarrollo Infantil (CLi). (n.d.). Listas de indicadores del desarrollo.   
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.unicef.org/argentina/media/19126/file " target="_blank" rel="noopener noreferrer") UNICEF & FLACSO Argentina. (n.d.). Instrumentos y metodologías de evaluación del desarrollo infantil temprano. 
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.mineducacion.gov.co/1780/w3-article-356107.html " target="_blank" rel="noopener noreferrer") Ministerio de Educación Nacional de Colombia. (n.d.). Sistema de seguimiento al desarrollo integral.  
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://blogs.iadb.org/desarrollo-infantil/es/medir-bien-desarrollo-infantil-ninos/ " target="_blank" rel="noopener noreferrer") Banco Interamericano de Desarrollo. (n.d.). Evaluación del desarrollo psicomotor: Escala Nelson Ortiz. 
-            p.d-flex.my-4
-              img.me-3(src='@/assets/componentes/link.svg' :style="{'max-width':'16px'}")
-              a(href="https://conecta.tec.mx/es/noticias/nacional/educacion/aplicaciones-herramientas-inteligencia-artificial-ia-estudiantes?form=MG0AV3 " target="_blank" rel="noopener noreferrer") Conecta 
-
+              a(href="https://www.syseduca.com/" target="_blank" rel="noopener noreferrer") syseduca  
+            
 
             p.d-flex.my-4
               img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
-              a(href="https://www.youtube.com/watch?v=elsveDhWXyc&ab_channel=CRIFAcacias " target="_blank" rel="noopener noreferrer") CRIF Acacias (27 may 2020). El papel de los distintos agentes educativos. MOC Educar en la igualdad. Módulo IV.  
+              a(href="https://www.youtube.com/watch?v=Z-BGqp3naK4 " target="_blank" rel="noopener noreferrer") Universidad Pedagógica Nacional. (1 noviembre 2024). La educación inicial en Colombia: Reflexiones sobre su historia y futuro.
+            p.d-flex.my-4
+              img.me-3(src='@/assets/template/icono-yt.svg' :style="{'max-width':'16px'}")
+              a(href="https://www.youtube.com/watch?v=2lzvgdv8eyk " target="_blank" rel="noopener noreferrer") Ministerio de Educación Nacional. (7 oct 2013). Educación Inicial, El Mejor Comienzo. 
 
           .col-12.col-md-6.col-lg-3.offset-lg-1
             figure
