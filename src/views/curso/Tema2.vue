@@ -266,7 +266,7 @@
 
             p(data-aos="fade-left") A lo largo del documento, se abordarán las brechas de cobertura y calidad que afectan el acceso a la educación en distintas regiones del país, y cómo estas desigualdades impactan en el desarrollo de los niños. Además, se explorará la importancia de la articulación intersectorial en la creación de políticas públicas que garanticen un enfoque integral en la atención a la primera infancia, superando los desafíos estructurales y promoviendo el bienestar de los niños y niñas en sus primeros años de vida.
 
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_3.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto

@@ -99,7 +99,7 @@
             p(data-aos="fade-right") Este análisis permitirá comprender la relevancia de la Ley 115 en la transformación del sistema educativo colombiano y en la creación de oportunidades para que todos los niños y niñas accedan a un entorno educativo que favorezca su desarrollo integral y contribuyan, en el futuro, al bienestar de la sociedad.
 
     
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_2.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto

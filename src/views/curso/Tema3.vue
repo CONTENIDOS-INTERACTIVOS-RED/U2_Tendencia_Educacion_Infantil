@@ -155,7 +155,7 @@
             h2.mb-4(data-aos="flip-up") Guías y materiales complementarios   
             p(data-aos="fade-right") En el PDF <b>Guías y materiales complementarios</b>, se presentarán recursos clave ofrecidos por entidades como el ICBF y el MEN, destacando su relevancia en la creación de estrategias pedagógicas que fomenten el bienestar, la inclusión y el aprendizaje activo. Además, se explorarán casos prácticos que muestran cómo estas herramientas se han implementado en diversas instituciones educativas, adaptándose a distintos contextos y desafíos.
 
-            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_1.pdf')" target="_blank")(data-aos="flip-up")
+            a.anexo.mb-4.bg-white.w-fit(:href="obtenerLink('/downloads/Anexo_4.pdf')" target="_blank")(data-aos="flip-up")
               .anexo__icono(:style="{'background-color': '#FCDFDB'}")
                 img(src="@/assets/template/icono-pdf.svg")
               .anexo__texto
