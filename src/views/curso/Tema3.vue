@@ -227,30 +227,28 @@ export default {
           {
             id: 1,
             texto:
-              '¿Cuál es el objetivo principal del Sistema de Educación Inicial en Colombia?',
+              '¿Qué documento establece los lineamientos para el desarrollo integral de la primera infancia en Colombia?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto:
-                  'Brindar educación formal desde los primeros grados escolares',
-                esCorrecta: false,
-              },
-              {
-                id: 'b',
-                texto:
-                  'Garantizar una atención integral de calidad para la primera infancia',
+                texto: 'La Ley 1804 de 2016',
                 esCorrecta: true,
               },
               {
+                id: 'b',
+                texto: 'El Decreto 1075 de 2015',
+                esCorrecta: false,
+              },
+              {
                 id: 'c',
-                texto: 'Reducir la tasa de deserción escolar',
+                texto: 'El Plan Nacional de Educación Inicial',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Implementar programas de arte en las aulas',
+                texto: 'La Constitución de 1991',
                 esCorrecta: false,
               },
             ],
@@ -260,28 +258,28 @@ export default {
           {
             id: 2,
             texto:
-              '¿Qué modalidad de atención en educación inicial está dirigida principalmente a la educación dentro del hogar?',
+              '¿Qué concepto es fundamental dentro de la política educativa de la primera infancia en Colombia?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Modalidad institucional',
+                texto: 'Educación exclusivamente académica',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Modalidad comunitaria',
-                esCorrecta: false,
-              },
-              {
-                id: 'c',
-                texto: 'Modalidad familiar',
+                texto: 'Enfoque de derechos',
                 esCorrecta: true,
               },
               {
+                id: 'c',
+                texto: 'Exclusividad de la modalidad institucional',
+                esCorrecta: false,
+              },
+              {
                 id: 'd',
-                texto: 'Modalidad educativa rural',
+                texto: 'Promoción de la educación a distancia',
                 esCorrecta: false,
               },
             ],
@@ -291,29 +289,30 @@ export default {
           {
             id: 3,
             texto:
-              '¿Cuál de los siguientes es un principio fundamental de la atención integral en la primera infancia?',
+              'Según la Ley General de Educación (Ley 115 de 1994), ¿cuál es el principal objetivo de la educación inicial en Colombia?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Enseñanza únicamente académica',
+                texto: 'Mejorar las infraestructuras educativas',
                 esCorrecta: false,
               },
               {
                 id: 'b',
-                texto: 'Inclusión y equidad',
-                esCorrecta: true,
+                texto: 'Preparar a los niños para la educación primaria',
+                esCorrecta: false,
               },
               {
                 id: 'c',
-                texto: 'Separación entre la educación y la salud',
+                texto: 'Garantizar el acceso a la educación superior',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Exclusión de las comunidades rurales',
-                esCorrecta: false,
+                texto:
+                  'Proveer una atención integral en los primeros años de vida',
+                esCorrecta: true,
               },
             ],
             mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -322,29 +321,29 @@ export default {
           {
             id: 4,
             texto:
-              '¿Qué entidad es responsable de implementar las políticas de educación inicial en Colombia, junto con el Ministerio de Educación Nacional?',
+              '¿Qué política educativa busca garantizar el desarrollo integral de la primera infancia en Colombia, según la Ley 1804 de 2016?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'La Fiscalía General',
-                esCorrecta: false,
+                texto: '"De Cero a Siempre"',
+                esCorrecta: true,
               },
               {
                 id: 'b',
-                texto: 'La Secretaría de Educación',
+                texto: '"Educación para Todos"',
                 esCorrecta: false,
               },
               {
                 id: 'c',
-                texto: 'El Ministerio de Cultura',
+                texto: '"Un Niño, Un Maestro"',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'El Instituto Colombiano de Bienestar Familiar (ICBF)',
-                esCorrecta: true,
+                texto: '"Primeros Pasos en la Educación"',
+                esCorrecta: false,
               },
             ],
             mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -353,28 +352,29 @@ export default {
           {
             id: 5,
             texto:
-              '¿Cuál es un requisito fundamental para las instituciones que brindan educación inicial en Colombia según el MEN?',
+              '¿Qué importancia tiene la participación de las familias en la política educativa de la primera infancia?',
             imagen: '',
             barajarRespuestas: true,
             opciones: [
               {
                 id: 'a',
-                texto: 'Asegurar infraestructura de calidad',
-                esCorrecta: true,
-              },
-              {
-                id: 'b',
-                texto: 'Ofrecer programas extracurriculares',
+                texto: 'Es opcional, dependiendo de cada institución',
                 esCorrecta: false,
               },
               {
+                id: 'b',
+                texto: 'Es esencial para el desarrollo integral de los niños',
+                esCorrecta: true,
+              },
+              {
                 id: 'c',
-                texto: 'Contar con docentes extranjeros',
+                texto:
+                  'Solo es necesaria para las actividades extracurriculares',
                 esCorrecta: false,
               },
               {
                 id: 'd',
-                texto: 'Brindar almuerzos gratis',
+                texto: 'No tiene un impacto directo en la educación',
                 esCorrecta: false,
               },
             ],
