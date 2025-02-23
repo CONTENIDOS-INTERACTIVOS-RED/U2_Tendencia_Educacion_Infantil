@@ -31,7 +31,7 @@
     p.mb-4 Ahora que hemos comprendido la importancia de la educación inicial, es momento de adentrarnos en los fundamentos legales y normativos que respaldan esta etapa educativa. En este tema, explicaremos las leyes y normativas claves que guían la educación infantil en Colombia, asegurando su calidad y universalidad. 
 
     #t_1_1.titulo-segundo(data-aos="flip-up")
-      h2 #[span 1.1] ¿Qué son las modalidades de atención en educación inicial?     
+      h2 #[span 1.1] Fundamentos legales y normativos de la política educativa colombiana en educación inicial  
     
     .row.mb-5
       .col-lg-3.mb-3.mb-lg-0
